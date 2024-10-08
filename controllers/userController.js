@@ -23,6 +23,7 @@ export const registerUser = asyncHandler(async (req, res) => {
 
   const file = "/api/image/" + req.file.filename
 
+
   try {
     
     const userExists = await User.findOne({ email })

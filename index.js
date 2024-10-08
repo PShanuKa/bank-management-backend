@@ -28,7 +28,8 @@ app.get('/api/image/:image', (req, res) => {
   res.sendFile(path.join(__dirname, 'uploads/profile', req.params.image));
 });
 
-
+// app.use(notFound)
+// app.use(handleError)
 
 
 const port = 3000
