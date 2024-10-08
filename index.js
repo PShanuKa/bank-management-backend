@@ -22,6 +22,7 @@ app.use(cookieParser())
 app.use(cors())
 
 app.use("/api/user", userRouter);
+app.use("/api/location", locationRouter);
 
 
 app.get('/api/image/:image', (req, res) => {
