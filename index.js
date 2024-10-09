@@ -8,6 +8,7 @@ import { handleError, notFound } from './middlewares/errorHandler.js';
 import { dbConnect } from './config/dbConnect.js';
 import path from 'path'
 import { fileURLToPath } from 'url';
+import { customerRouter } from './routes/customerRoute.js';
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
@@ -22,6 +23,7 @@ app.use(cookieParser())
 app.use(cors())
 
 app.use("/api/user", userRouter);
+app.use("/api/customer", customerRouter);
 
 
 app.get('/api/image/:image', (req, res) => {
