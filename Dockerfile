@@ -9,7 +9,7 @@ RUN npm install
 ENV MONGODB_URI=mongodb+srv://imalka:imalka@e-grocery.lpdsalu.mongodb.net/?retryWrites=true&w=majority&appName=bank
 
 ENV JWT_SECRET=dwaghdwgh
-ENV PORT=5000
+ENV PORT=3000
 
 COPY . .
 
