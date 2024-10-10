@@ -9,11 +9,7 @@ const userSchema = new mongoose.Schema(
     },
     surName: {
       type: String,
-      required: true,
-    },
-    employeeId: {
-      type: String,
-      required: true,
+      
     },
     email: {
       type: String,
@@ -26,11 +22,11 @@ const userSchema = new mongoose.Schema(
     },
     location: {
       type: String,
-      required: true,
+      
     },
     mobileNumber: {
       type: String,
-      required: true,
+      
     },
     isAdmin: {
       type: Boolean,
@@ -38,7 +34,7 @@ const userSchema = new mongoose.Schema(
     },
     nic: {
       type: String,
-      required: true,
+      
     },
     gender: {
       type: String,
@@ -47,7 +43,7 @@ const userSchema = new mongoose.Schema(
     },
     dateOfBirth: {
       type: Date,
-      required: true,
+      
     },
     civilStatus: {
       type: String,
@@ -56,7 +52,7 @@ const userSchema = new mongoose.Schema(
     },
     address: {
       type: String,
-      required: true,
+      
     },
     profilePicture: {
       type: String,
@@ -81,6 +77,8 @@ userSchema.pre("save", async function (next) {
   this.password = await bcrypt.hash(this.password, salt);
   next();
 });
+
+
 
 userSchema.methods.isPasswordMatched = async function (enterpassword) {
   return await bcrypt.compare(enterpassword, this.password);

@@ -4,12 +4,7 @@ import asyncHandler from "express-async-handler";
 export const createCustomer = asyncHandler(async (req, res) => {
     const { loanCode, nic, location, areaCode, firstName, surName, address, number, dateOfBirth, gender, civilStatus, income, homeFullIncome, profilePicture, homeImage, billImage, paySheetImage, signatureImage } = req.body;  
 
-    const profilePic =req.files.profilePicture ? "/api/image/" + req.files.profilePicture[0].filename : null
-    const homePic =req.files.homeImage ? "/api/image/" + req.files.homeImage[0].filename : null
-    const billPic = req.files.billImage ? "/api/image/" + req.files.billImage[0].filename : null
-    const paySheetPic =req.files.paySheetImage[0] ? "/api/image/" + req.files.paySheetImage[0].filename : null
-    const signaturePic = req.files.signatureImage ? "/api/image/" + req.files.signatureImage[0].filename : null
-
+  
     const customer = new Customer({
       loanCode,
       nic,
@@ -19,16 +14,16 @@ export const createCustomer = asyncHandler(async (req, res) => {
       surName,
       address,
       number,
-      dateOfBirth,
+      dateOfBirth : dateOfBirth || null,
       gender,
-      civilStatus,
+      civilStatus: civilStatus || null,
       income,
       homeFullIncome,
-      profilePicture:profilePic,
-      homeImage:homePic,
-      billImage:billPic,
-      paySheetImage:paySheetPic,
-      signatureImage:signaturePic
+      profilePicture,
+      homeImage,
+      billImage,
+      paySheetImage,
+      signatureImage
     });
     await customer.save();
     res.status(201).json({ message: "Customer created successfully", customer });

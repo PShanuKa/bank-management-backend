@@ -9,6 +9,8 @@ import { dbConnect } from './config/dbConnect.js';
 import path from 'path'
 import { fileURLToPath } from 'url';
 import { customerRouter } from './routes/customerRoute.js';
+import { areaRouter } from './routes/areaRoute.js';
+import { guarantorRouter } from './routes/guarantorRoute.js';
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
@@ -24,6 +26,8 @@ app.use(cors())
 
 app.use("/api/user", userRouter);
 app.use("/api/customer", customerRouter);
+app.use("/api/area", areaRouter);
+app.use("/api/guarantor", guarantorRouter);
 
 
 app.get('/api/image/:image', (req, res) => {
