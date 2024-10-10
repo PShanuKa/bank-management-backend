@@ -6,18 +6,19 @@ import bcrypt from "bcrypt";
 
 export const registerUser = asyncHandler(async (req, res) => {
   const {
-    firstName,
-    surName,
-    email,
-    password,
-    mobileNumber,
-    nic,
-    gender,
-    dateOfBirth,
-    civilStatus,
-    address,
-    location,
-    profilePicture,
+    designation,
+		location,
+		profilePicture,
+		firstName,
+		surName,
+		email,
+		password,
+		nic,
+		gender,
+		dateOfBirth,
+		mobileNumber,
+		address,
+		civilStatus,
   } = req.body;
 
   try {
@@ -32,6 +33,7 @@ export const registerUser = asyncHandler(async (req, res) => {
       email,
       password,
       mobileNumber,
+      isAdmin: designation === "admin" ? true : false,
       nic,
       gender: gender || null,
       dateOfBirth : dateOfBirth || null,
@@ -52,7 +54,8 @@ export const registerUser = asyncHandler(async (req, res) => {
       res.status(400).json({ message: "Invalid user data" });
     }
   } catch (error) {
-    res.status(500).json({ message: error.message });
+    res.status(500);
+    throw new Error(error);
   }
 });
 
@@ -73,7 +76,8 @@ export const loginUser = asyncHandler(async (req, res) => {
       throw new Error("Invalid email or password");
     }
   } catch (error) {
-    res.status(500).json({ message: error.message });
+    res.status(500);
+    throw new Error(error);
   }
 });
 
@@ -97,14 +101,18 @@ export const updateUser = asyncHandler(async (req, res) => {
       { new: true }
     );
 
+
     if (updatedUser) {
-      res.json(updatedUser);
+      const { password, ...others } = updatedUser._doc;
+
+      res.json(others);
     } else {
       res.status(404);
       throw new Error("User not found");
     }
   } catch (error) {
-    res.status(500).json({ message: error.message });
+    res.status(500);
+    throw new Error(error);
   }
 });
 
@@ -122,7 +130,7 @@ export const getAUser = asyncHandler(async (req, res) => {
       throw new Error("User not found");
     }
   } catch (error) {
-    res.status(500).json({ message: error.message });
+    throw new Error(error);
   }
 });
 
@@ -131,6 +139,7 @@ export const getAllUser = asyncHandler(async (req, res) => {
     const users = await User.find();
     res.json(users);
   } catch (error) {
-    res.status(500).json({ message: error.message });
+    res.status(500);
+    throw new Error(error);
   }
 });

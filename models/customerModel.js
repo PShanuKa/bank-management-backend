@@ -5,7 +5,6 @@ const customerSchema = new mongoose.Schema(
   {
     loanCode: {
       type: String,
-      required: true,
     },
     nic: {
       type: String,
@@ -13,11 +12,11 @@ const customerSchema = new mongoose.Schema(
     },
     location: {
       type: String,
-      required: true,
+      
     },
     areaCode: {
       type: String,
-      required: true,
+      
     },
     firstName: {
       type: String,
@@ -25,11 +24,11 @@ const customerSchema = new mongoose.Schema(
     },
     surName: {
       type: String,
-      required: true,
+     
     },
     address: {
       type: String,
-      required: true,
+      
     },
     number: [
       {
@@ -43,7 +42,6 @@ const customerSchema = new mongoose.Schema(
     },
     dateOfBirth: {
       type: Date,
-      required: true,
     },
     civilStatus: {
       type: String,

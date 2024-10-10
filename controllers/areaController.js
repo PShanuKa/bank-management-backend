@@ -30,36 +30,52 @@ export const createArea = asyncHandler(async (req, res) => {
 });
 
 export const getAllAreas = asyncHandler(async (req, res) => {
-  const areas = await Area.find({}).populate("employeeId");
-  res.json(areas);
+  try {
+    
+    const areas = await Area.find({}).populate("employeeId");
+    res.json(areas);
+  } catch (error) {
+    res.status(500);  
+    throw new Error(error);
+  }
 });
 
 export const updateArea = asyncHandler(async (req, res) => {
   const { id } = req.params;
-  console.log(req.body);
-
-  const updatedArea = await Area.findByIdAndUpdate(
-    id,
-    {
-      $set: req.body,
-    },
-    { new: true }
-  );
-  if (updatedArea) {
-    res.json(updatedArea);
-  } else {
-    res.status(404);
-    throw new Error("Area not found");
+  try {
+    
+    const updatedArea = await Area.findByIdAndUpdate(
+      id,
+      {
+        $set: req.body,
+      },
+      { new: true }
+    );
+    if (updatedArea) {
+      res.json(updatedArea);
+    } else {
+      res.status(404);
+      throw new Error("Area not found");
+    }
+  } catch (error) {
+    res.status(500);
+    throw new Error(error);
   }
 });
 
 export const deleteArea = asyncHandler(async (req, res) => {
-  const area = await Area.findById(req.params.id);
-  if (area) {
-    await area.remove();
-    res.json({ message: "Area removed" });
-  } else {
-    res.status(404);
-    throw new Error("Area not found");
+  try {
+
+    const area = await Area.findById(req.params.id);
+    if (area) {
+      await area.remove();
+      res.json({ message: "Area removed" });
+    } else {
+      res.status(404);
+      throw new Error("Area not found");
+    }
+  }catch (error) {
+    res.status(500);
+    throw new Error(error);
   }
 });
