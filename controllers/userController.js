@@ -4,61 +4,63 @@ import { generateToken } from "../config/jwtToken.js";
 import { validateMongoDbId } from "../config/validateMongoDbId.js";
 import bcrypt from "bcrypt";
 
+// Register User
 export const registerUser = asyncHandler(async (req, res) => {
   const {
     designation,
-		location,
-		profilePicture,
-		firstName,
-		surName,
-		email,
-		password,
-		nic,
-		gender,
-		dateOfBirth,
-		mobileNumber,
-		address,
-		civilStatus,
+    location,
+    profilePicture,
+    firstName,
+    surName,
+    email,
+    password,
+    nic,
+    gender,
+    dateOfBirth,
+    mobileNumber,
+    address,
+    civilStatus,
   } = req.body;
 
   try {
     const userExists = await User.findOne({ email });
     if (userExists) {
-      return res.status(400).json({ message: "User already exists" });
+      return res.status(409).json({ success: false, message: "User already exists" });
     }
 
     const newUser = await User.create({
-      firstName,
-      surName,
-      email,
-      password,
-      mobileNumber,
+      firstName: firstName || null,
+      surName:  surName   || null,
+      email: email || null,
+      password: password || null,
+      mobileNumber: mobileNumber || null,
       isAdmin: designation === "admin" ? true : false,
-      nic,
+      nic: nic || null,
       gender: gender || null,
-      dateOfBirth : dateOfBirth || null,
-      civilStatus : civilStatus || null,
-      address,
-      location,
-      profilePicture,
+      dateOfBirth: dateOfBirth || null,
+      civilStatus: civilStatus || null,
+      address: address || null,
+      location: location || null,
+      profilePicture: profilePicture || null,
     });
 
     const { password: pass, ...others } = newUser._doc;
 
     if (newUser) {
-      res.status(201).json({
+      return res.status(201).json({
+        success: true,
         message: "User created successfully",
         user: others,
       });
     } else {
-      res.status(400).json({ message: "Invalid user data" });
+      return res.status(400).json({ success: false, message: "Invalid user data" });
     }
   } catch (error) {
-    res.status(500);
-    throw new Error(error);
+    return res.status(500).json({ success: false, message: error.message });
   }
 });
 
+// Login User
 export const loginUser = asyncHandler(async (req, res) => {
   const { email, password } = req.body;
 
@@ -67,20 +69,21 @@ export const loginUser = asyncHandler(async (req, res) => {
 
     if (user && (await user.isPasswordMatched(password))) {
       const { password, ...rest } = user._doc;
-      res.json({
+      return res.json({
+        success: true,
+        message: "Login successful",
         user: rest,
         token: generateToken(user._id),
       });
     } else {
-      res.status(401);
-      throw new Error("Invalid email or password");
+      return res.status(401).json({ success: false, message: "Invalid email or password" });
     }
   } catch (error) {
-    res.status(500);
-    throw new Error(error);
+    return res.status(500).json({ success: false, message: error.message });
   }
 });
 
+// Update User
 export const updateUser = asyncHandler(async (req, res) => {
   const { id } = req.params;
 
@@ -101,21 +104,22 @@ export const updateUser = asyncHandler(async (req, res) => {
       { new: true }
     );
 
-
     if (updatedUser) {
       const { password, ...others } = updatedUser._doc;
-
-      res.json(others);
+      return res.json({
+        success: true,
+        message: "User updated successfully",
+        user: others,
+      });
     } else {
-      res.status(404);
-      throw new Error("User not found");
+      return res.status(404).json({ success: false, message: "User not found" });
     }
   } catch (error) {
-    res.status(500);
-    throw new Error(error);
+    return res.status(500).json({ success: false, message: error.message });
   }
 });
 
+// Get a User
 export const getAUser = asyncHandler(async (req, res) => {
   const { id } = req.params;
 
@@ -124,22 +128,21 @@ export const getAUser = asyncHandler(async (req, res) => {
 
     const user = await User.findById(id);
     if (user) {
-      res.json(user);
+      return res.json({ success: true, user });
     } else {
-      res.status(404);
-      throw new Error("User not found");
+      return res.status(404).json({ success: false, message: "User not found" });
     }
   } catch (error) {
-    throw new Error(error);
+    return res.status(500).json({ success: false, message: error.message });
   }
 });
 
+// Get All Users
 export const getAllUser = asyncHandler(async (req, res) => {
   try {
     const users = await User.find();
-    res.json(users);
+    return res.json({ success: true, users });
   } catch (error) {
-    res.status(500);
-    throw new Error(error);
+    return res.status(500).json({ success: false, message: error.message });
   }
 });

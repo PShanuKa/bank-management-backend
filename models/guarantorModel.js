@@ -33,7 +33,7 @@ const guarantorSchema = new mongoose.Schema(
       default: "male",
     },
     dateOfBirth: {
-      type: Date,  
+      type: String,  
     },
     civilStatus: {
       type: String,

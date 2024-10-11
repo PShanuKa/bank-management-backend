@@ -42,7 +42,7 @@ const userSchema = new mongoose.Schema(
       default: "male",
     },
     dateOfBirth: {
-      type: Date,
+      type: String,
       
     },
     civilStatus: {
@@ -56,7 +56,7 @@ const userSchema = new mongoose.Schema(
     },
     profilePicture: {
       type: String,
-      default: "https://res.cloudinary.com/dldtrjalo/image/upload/v1711012929/ov133xsp0pmas2rrwsex.jpg",
+      default: "https://res.cloudinary.com/dldtrjalo/image/upload/v1728603263/hsx9le9olf5uayql3qfo.jpg",
     },
     status: {
       type: String,
