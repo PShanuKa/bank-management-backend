@@ -15,6 +15,7 @@ import logger from './config/logger.js';
 import { LoanRouter } from './routes/loanRoute.js';
 import { settingRoute } from './routes/settingRoute.js';
 import { paymentRouter } from './routes/paymentRoute.js';
+import { userTaskRouter } from './routes/userTaskRoute.js';
 dotenv.config();
 
 
@@ -55,6 +56,7 @@ app.use("/api/guarantor", guarantorRouter);
 app.use("/api/loan", LoanRouter);
 app.use("/api/setting",settingRoute)
 app.use("/api/payment",paymentRouter)
+app.use("/api/user-task",userTaskRouter)
 
 
 app.get('/api/image/:image', (req, res) => {

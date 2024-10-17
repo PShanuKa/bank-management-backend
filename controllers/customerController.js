@@ -3,35 +3,40 @@ import asyncHandler from "express-async-handler";
 
 // Create a Customer
 export const createCustomer = asyncHandler(async (req, res) => {
-  const { loanCode, nic, location, areaCode, firstName, surName, address, number, dateOfBirth, gender, civilStatus, income, homeFullIncome, profilePicture, homeImage, billImage, paySheetImage, signatureImage,customerCode } = req.body;
+  const { nic, location, areaCode, firstName, surName, address, number, dateOfBirth, gender, civilStatus, income, homeFullIncome, profilePicture, homeImage, billImage, paySheetImage, signatureImage,customerCode } = req.body;
 
   try {
     const customer = new Customer({
-      loanCode: loanCode || null,
-      customerCode: customerCode || null,
-      nic: nic || null,
-      location: location || null,
-      areaCode: areaCode || null,
-      firstName: firstName || null,
-      surName: surName || null,
-      address: address || null,
-      number: number || null,
-      dateOfBirth: dateOfBirth || null,
-      gender: gender || null,
-      civilStatus: civilStatus || null,
-      income: income || null,
-      homeFullIncome: homeFullIncome || null,
-      profilePicture: profilePicture || null,
-      homeImage: homeImage || null,
-      billImage: billImage || null,
-      paySheetImage: paySheetImage || null,
-      signatureImage: signatureImage || null,
+      customerCode: customerCode || undefined,
+      nic: nic || undefined,
+      location: location || undefined,
+      areaCode: areaCode || undefined,
+      firstName: firstName || undefined,
+      surName: surName || undefined,
+      address: address || undefined,
+      number: number || undefined,
+      dateOfBirth: dateOfBirth || undefined,
+      gender: gender || undefined,
+      civilStatus: civilStatus || undefined,
+      income: income || undefined,
+      homeFullIncome: homeFullIncome || undefined,
+      profilePicture: profilePicture || undefined,
+      homeImage: homeImage || undefined,
+      billImage: billImage || undefined,
+      paySheetImage: paySheetImage || undefined,
+      signatureImage: signatureImage || undefined,
     });
 
     await customer.save();
     res.status(201).json({ success: true, message: "Customer created successfully", customer });
   } catch (error) {
-    res.status(400).json({ success: false, message: error.message });
+    if (error.code === 11000 && error.keyPattern.customerCode) {
+      res
+        .status(400)
+        .json({ success: false, message: "Customer code already exists" });
+    } else {
+      res.status(500).json({ success: false, message: error.message });
+    }
   }
 });
 

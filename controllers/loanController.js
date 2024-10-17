@@ -43,13 +43,17 @@ export const createLoan = asyncHandler(async (req, res) => {
         loanCode: loanCode || undefined
       });
   
-      if (newLoan) {
+     
         return res.status(201).json({ success: true, message: "Loan created successfully", Loan: newLoan });
-      } else {
-        return res.status(400).json({ success: false, message: "Invalid Loan data" });
-      }
+      
     } catch (error) {
-      return res.status(500).json({ success: false, message: error.message });
+      if (error.code === 11000 && error.keyPattern.loanCode) {
+        res
+          .status(400)
+          .json({ success: false, message: "Loan code already exists" });
+      } else {
+        res.status(500).json({ success: false, message: error.message });
+      }
     }
   });
 
@@ -148,7 +152,8 @@ export const updateLoan = asyncHandler(async (req, res) => {
       startDate, 
       endDate,
       description,
-      loanCode
+      loanCode,
+      reminderDescription
   } = req.body;
 
   console.log(req.body)
@@ -172,6 +177,7 @@ export const updateLoan = asyncHandler(async (req, res) => {
       LoanData.description = description || LoanData.description;
       LoanData.status =  LoanData.status;
       LoanData.loanCode = loanCode || LoanData.loanCode;
+      LoanData.reminderDescription = reminderDescription || LoanData.reminderDescription;
 
       const updatedLoan = await LoanData.save();
       return res.status(200).json({ success: true, message: "Loan updated successfully", Loan: updatedLoan });

@@ -9,6 +9,7 @@ const guarantorSchema = new mongoose.Schema(
     guarantorCode: {
       type: String,
       unique: true,
+      
     },
     location: {
       type: String,
@@ -43,7 +44,7 @@ const guarantorSchema = new mongoose.Schema(
     profilePicture: {
       type: String,
       default:
-        "https://res.cloudinary.com/dldtrjalo/image/upload/v1711012929/ov133xsp0pmas2rrwsex.jpg",
+        "https://res.cloudinary.com/dldtrjalo/image/upload/v1728603263/hsx9le9olf5uayql3qfo.jpg",
     },
   },
   {

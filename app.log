@@ -22788,3 +22788,1243 @@
 2024-10-17T01:39:08.602Z [INFO]: listening on port 3000
 2024-10-17T01:39:10.215Z [INFO]: listening on port 3000
 2024-10-17T01:39:11.507Z [INFO]: Database Connected
+2024-10-17T01:45:22.070Z [INFO]: listening on port 3000
+2024-10-17T01:45:23.314Z [INFO]: Database Connected
+2024-10-17T01:45:25.579Z [INFO]: listening on port 3000
+2024-10-17T01:45:27.546Z [INFO]: listening on port 3000
+2024-10-17T01:45:28.534Z [INFO]: Database Connected
+2024-10-17T01:45:34.788Z [INFO]: listening on port 3000
+2024-10-17T01:45:35.797Z [INFO]: Database Connected
+2024-10-17T01:45:40.190Z [INFO]: listening on port 3000
+2024-10-17T01:45:42.245Z [INFO]: listening on port 3000
+2024-10-17T01:45:43.269Z [INFO]: Database Connected
+2024-10-17T01:53:07.350Z [INFO]: Incoming request: PUT /api/loan/update/671065d9978772524f464ab1
+2024-10-17T01:53:07.610Z [INFO]: Incoming request: GET /api/loan//reminder?endDate=2024-10-17
+2024-10-17T01:53:35.355Z [INFO]: Incoming request: PUT /api/loan/update/671065d9978772524f464ab1
+2024-10-17T01:53:35.548Z [INFO]: Incoming request: GET /api/loan//reminder?endDate=2024-10-17
+2024-10-17T01:54:12.066Z [INFO]: Incoming request: GET /api/loan//reminder?endDate=2024-10-17
+2024-10-17T01:54:26.717Z [INFO]: Incoming request: PUT /api/loan/update/671065d9978772524f464ab1
+2024-10-17T01:54:26.908Z [INFO]: Incoming request: GET /api/loan//reminder?endDate=2024-10-17
+2024-10-17T01:55:14.213Z [INFO]: Incoming request: PUT /api/loan/update/671065d9978772524f464ab1
+2024-10-17T01:55:14.412Z [INFO]: Incoming request: GET /api/loan//reminder?endDate=2024-10-17
+2024-10-17T01:56:37.682Z [INFO]: Incoming request: GET /api/loan//reminder?endDate=2024-10-17
+2024-10-17T01:57:28.877Z [INFO]: Incoming request: PUT /api/loan/update/671065d9978772524f464ab1
+2024-10-17T01:57:29.050Z [INFO]: Incoming request: GET /api/loan//reminder?endDate=2024-10-17
+2024-10-17T01:58:21.780Z [INFO]: Incoming request: GET /api/area/all?page=1&limit=100000
+2024-10-17T01:58:21.784Z [INFO]: Incoming request: GET /api/customer/search?customerCode=
+2024-10-17T01:58:21.786Z [INFO]: Incoming request: GET /api/setting
+2024-10-17T01:58:21.790Z [INFO]: Incoming request: GET /api/loan/all?status=&page=1&limit=10000
+2024-10-17T01:58:21.792Z [INFO]: Incoming request: GET /api/loan/all?status=Pending&page=1&limit=10000
+2024-10-17T01:58:21.998Z [INFO]: Incoming request: GET /api/customer/search?customerCode=undefined
+2024-10-17T01:58:33.163Z [INFO]: Incoming request: PUT /api/loan/update/671065d9978772524f464ab1
+2024-10-17T01:58:33.374Z [INFO]: Incoming request: GET /api/loan/all?status=&page=1&limit=10000
+2024-10-17T01:58:33.376Z [INFO]: Incoming request: GET /api/loan/all?status=Pending&page=1&limit=10000
+2024-10-17T02:00:55.301Z [INFO]: Incoming request: GET /api/loan//reminder?endDate=2024-10-17
+2024-10-17T02:01:38.794Z [INFO]: Incoming request: GET /api/loan//reminder?endDate=2024-10-17
+2024-10-17T02:01:56.977Z [INFO]: Incoming request: GET /api/loan//reminder?endDate=2024-10-17
+2024-10-17T02:02:21.786Z [INFO]: Incoming request: GET /api/loan//reminder?endDate=2024-10-17
+2024-10-17T02:02:35.598Z [INFO]: Incoming request: PUT /api/loan/update/671065d9978772524f464ab1
+2024-10-17T02:02:35.766Z [INFO]: Incoming request: GET /api/loan//reminder?endDate=2024-10-17
+2024-10-17T02:02:53.357Z [INFO]: Incoming request: PUT /api/loan/update/671065d9978772524f464ab1
+2024-10-17T02:02:53.567Z [INFO]: Incoming request: GET /api/loan//reminder?endDate=2024-10-17
+2024-10-17T02:37:38.564Z [INFO]: Incoming request: GET /api/loan//reminder?endDate=2024-10-17
+2024-10-17T02:39:40.349Z [INFO]: Incoming request: GET /api/loan/all?status=&page=1&limit=10000
+2024-10-17T02:39:45.214Z [INFO]: Incoming request: GET /api/loan/all?status=Pending&page=1&limit=10000
+2024-10-17T02:40:39.759Z [INFO]: Incoming request: GET /api/area/all?page=1&limit=100000
+2024-10-17T02:40:39.764Z [INFO]: Incoming request: GET /api/setting
+2024-10-17T02:40:39.771Z [INFO]: Incoming request: GET /api/customer/search?customerCode=
+2024-10-17T02:40:39.773Z [INFO]: Incoming request: GET /api/customer/search?customerCode=undefined
+2024-10-17T02:43:10.516Z [INFO]: Incoming request: GET /api/area/all?page=1&limit=100000
+2024-10-17T02:43:10.520Z [INFO]: Incoming request: GET /api/loan/all?status=&page=1&limit=10000
+2024-10-17T02:43:10.521Z [INFO]: Incoming request: GET /api/setting
+2024-10-17T02:43:10.523Z [INFO]: Incoming request: GET /api/customer/search?customerCode=
+2024-10-17T02:43:35.653Z [INFO]: Incoming request: GET /api/customer/search?customerCode=undefined
+2024-10-17T02:43:35.665Z [INFO]: Incoming request: GET /api/loan/all?status=Pending&page=1&limit=10000
+2024-10-17T02:51:53.086Z [INFO]: listening on port 3000
+2024-10-17T02:51:57.739Z [INFO]: listening on port 3000
+2024-10-17T02:51:59.454Z [INFO]: Database Connected
+2024-10-17T02:52:01.983Z [INFO]: listening on port 3000
+2024-10-17T02:52:03.810Z [INFO]: Database Connected
+2024-10-17T02:52:10.041Z [INFO]: listening on port 3000
+2024-10-17T02:52:11.229Z [INFO]: Database Connected
+2024-10-17T02:52:16.961Z [INFO]: listening on port 3000
+2024-10-17T02:52:18.301Z [INFO]: Database Connected
+2024-10-17T02:52:24.028Z [INFO]: listening on port 3000
+2024-10-17T02:52:25.606Z [INFO]: Database Connected
+2024-10-17T02:52:35.620Z [INFO]: listening on port 3000
+2024-10-17T02:52:36.738Z [INFO]: Database Connected
+2024-10-17T02:52:41.565Z [INFO]: listening on port 3000
+2024-10-17T02:52:42.804Z [INFO]: Database Connected
+2024-10-17T02:52:46.817Z [INFO]: listening on port 3000
+2024-10-17T02:52:48.201Z [INFO]: Database Connected
+2024-10-17T02:52:53.692Z [INFO]: listening on port 3000
+2024-10-17T02:52:56.248Z [INFO]: listening on port 3000
+2024-10-17T02:52:57.872Z [INFO]: listening on port 3000
+2024-10-17T02:52:59.041Z [INFO]: Database Connected
+2024-10-17T02:53:02.169Z [INFO]: listening on port 3000
+2024-10-17T02:53:03.334Z [INFO]: Database Connected
+2024-10-17T02:53:04.706Z [INFO]: listening on port 3000
+2024-10-17T02:53:05.867Z [INFO]: Database Connected
+2024-10-17T02:53:22.415Z [INFO]: listening on port 3000
+2024-10-17T02:53:23.508Z [INFO]: Database Connected
+2024-10-17T02:53:25.662Z [INFO]: listening on port 3000
+2024-10-17T02:53:27.476Z [INFO]: listening on port 3000
+2024-10-17T02:53:28.527Z [INFO]: Database Connected
+2024-10-17T02:53:30.745Z [INFO]: listening on port 3000
+2024-10-17T02:53:32.353Z [INFO]: listening on port 3000
+2024-10-17T02:53:33.482Z [INFO]: Database Connected
+2024-10-17T02:53:35.453Z [INFO]: listening on port 3000
+2024-10-17T02:53:36.571Z [INFO]: Database Connected
+2024-10-17T02:53:39.531Z [INFO]: listening on port 3000
+2024-10-17T02:53:41.376Z [INFO]: listening on port 3000
+2024-10-17T02:53:42.941Z [INFO]: listening on port 3000
+2024-10-17T02:53:45.895Z [INFO]: listening on port 3000
+2024-10-17T02:53:47.122Z [INFO]: Database Connected
+2024-10-17T02:53:50.743Z [INFO]: listening on port 3000
+2024-10-17T02:53:52.042Z [INFO]: Database Connected
+2024-10-17T02:53:57.492Z [INFO]: listening on port 3000
+2024-10-17T02:53:58.587Z [INFO]: Database Connected
+2024-10-17T02:54:01.984Z [INFO]: listening on port 3000
+2024-10-17T02:54:04.243Z [INFO]: Database Connected
+2024-10-17T02:54:05.582Z [INFO]: listening on port 3000
+2024-10-17T02:54:06.742Z [INFO]: Database Connected
+2024-10-17T02:54:23.397Z [INFO]: listening on port 3000
+2024-10-17T02:54:24.921Z [INFO]: Database Connected
+2024-10-17T02:54:26.857Z [INFO]: listening on port 3000
+2024-10-17T02:54:28.844Z [INFO]: listening on port 3000
+2024-10-17T02:54:29.987Z [INFO]: Database Connected
+2024-10-17T02:54:39.360Z [INFO]: listening on port 3000
+2024-10-17T02:54:41.407Z [INFO]: listening on port 3000
+2024-10-17T02:54:43.113Z [INFO]: listening on port 3000
+2024-10-17T02:54:44.171Z [INFO]: Database Connected
+2024-10-17T02:54:46.608Z [INFO]: listening on port 3000
+2024-10-17T02:54:48.273Z [INFO]: listening on port 3000
+2024-10-17T02:54:49.308Z [INFO]: Database Connected
+2024-10-17T02:54:51.164Z [INFO]: listening on port 3000
+2024-10-17T02:54:52.517Z [INFO]: listening on port 3000
+2024-10-17T02:54:53.641Z [INFO]: Database Connected
+2024-10-17T02:55:07.172Z [INFO]: listening on port 3000
+2024-10-17T02:55:09.236Z [INFO]: listening on port 3000
+2024-10-17T02:55:10.306Z [INFO]: Database Connected
+2024-10-17T02:55:14.640Z [INFO]: listening on port 3000
+2024-10-17T02:55:15.811Z [INFO]: Database Connected
+2024-10-17T02:55:39.342Z [INFO]: listening on port 3000
+2024-10-17T02:55:40.521Z [INFO]: Database Connected
+2024-10-17T02:55:42.466Z [INFO]: listening on port 3000
+2024-10-17T02:55:43.626Z [INFO]: Database Connected
+2024-10-17T02:55:47.612Z [INFO]: listening on port 3000
+2024-10-17T02:55:50.671Z [INFO]: listening on port 3000
+2024-10-17T02:55:52.706Z [INFO]: listening on port 3000
+2024-10-17T02:55:53.749Z [INFO]: Database Connected
+2024-10-17T02:55:55.741Z [INFO]: listening on port 3000
+2024-10-17T02:55:57.688Z [INFO]: listening on port 3000
+2024-10-17T02:55:58.809Z [INFO]: Database Connected
+2024-10-17T02:56:01.037Z [INFO]: listening on port 3000
+2024-10-17T02:56:02.201Z [INFO]: Database Connected
+2024-10-17T02:56:07.046Z [INFO]: listening on port 3000
+2024-10-17T02:56:08.354Z [INFO]: Database Connected
+2024-10-17T02:56:11.569Z [INFO]: listening on port 3000
+2024-10-17T02:56:13.164Z [INFO]: listening on port 3000
+2024-10-17T02:56:15.017Z [INFO]: listening on port 3000
+2024-10-17T02:56:16.105Z [INFO]: Database Connected
+2024-10-17T02:56:20.330Z [INFO]: listening on port 3000
+2024-10-17T02:56:21.450Z [INFO]: Database Connected
+2024-10-17T02:56:29.881Z [INFO]: listening on port 3000
+2024-10-17T02:56:30.930Z [INFO]: Database Connected
+2024-10-17T02:56:36.249Z [INFO]: listening on port 3000
+2024-10-17T02:56:37.346Z [INFO]: Database Connected
+2024-10-17T02:56:43.983Z [INFO]: listening on port 3000
+2024-10-17T02:56:45.108Z [INFO]: Database Connected
+2024-10-17T02:56:51.189Z [INFO]: listening on port 3000
+2024-10-17T02:56:52.346Z [INFO]: Database Connected
+2024-10-17T02:56:58.132Z [INFO]: listening on port 3000
+2024-10-17T02:56:59.200Z [INFO]: Database Connected
+2024-10-17T02:57:07.631Z [INFO]: listening on port 3000
+2024-10-17T02:57:09.470Z [INFO]: listening on port 3000
+2024-10-17T02:57:10.951Z [INFO]: listening on port 3000
+2024-10-17T02:57:13.505Z [INFO]: Database Connected
+2024-10-17T02:57:19.217Z [INFO]: listening on port 3000
+2024-10-17T02:57:21.623Z [INFO]: listening on port 3000
+2024-10-17T02:57:23.540Z [INFO]: listening on port 3000
+2024-10-17T02:57:24.666Z [INFO]: Database Connected
+2024-10-17T02:57:27.484Z [INFO]: listening on port 3000
+2024-10-17T02:57:29.105Z [INFO]: listening on port 3000
+2024-10-17T02:57:32.620Z [INFO]: listening on port 3000
+2024-10-17T02:57:34.497Z [INFO]: listening on port 3000
+2024-10-17T02:57:35.609Z [INFO]: Database Connected
+2024-10-17T02:57:38.107Z [INFO]: listening on port 3000
+2024-10-17T02:57:42.830Z [INFO]: listening on port 3000
+2024-10-17T02:57:44.386Z [INFO]: listening on port 3000
+2024-10-17T02:57:47.565Z [INFO]: listening on port 3000
+2024-10-17T02:57:50.485Z [INFO]: listening on port 3000
+2024-10-17T02:57:51.443Z [INFO]: Database Connected
+2024-10-17T02:57:53.918Z [INFO]: listening on port 3000
+2024-10-17T02:57:55.904Z [INFO]: Database Connected
+2024-10-17T02:57:59.273Z [INFO]: listening on port 3000
+2024-10-17T02:58:04.140Z [INFO]: listening on port 3000
+2024-10-17T02:58:06.970Z [INFO]: listening on port 3000
+2024-10-17T02:58:10.225Z [INFO]: listening on port 3000
+2024-10-17T02:58:13.385Z [INFO]: Database Connected
+2024-10-17T02:58:18.086Z [INFO]: listening on port 3000
+2024-10-17T02:58:21.117Z [INFO]: listening on port 3000
+2024-10-17T02:58:23.504Z [INFO]: Database Connected
+2024-10-17T02:58:25.762Z [INFO]: listening on port 3000
+2024-10-17T02:58:27.069Z [INFO]: Database Connected
+2024-10-17T02:58:39.698Z [INFO]: listening on port 3000
+2024-10-17T02:58:41.119Z [INFO]: Database Connected
+2024-10-17T02:58:43.673Z [INFO]: listening on port 3000
+2024-10-17T02:58:46.742Z [INFO]: listening on port 3000
+2024-10-17T02:58:50.104Z [INFO]: Database Connected
+2024-10-17T02:58:58.167Z [INFO]: listening on port 3000
+2024-10-17T02:59:00.331Z [INFO]: listening on port 3000
+2024-10-17T02:59:02.482Z [INFO]: listening on port 3000
+2024-10-17T02:59:03.638Z [INFO]: Database Connected
+2024-10-17T02:59:06.797Z [INFO]: listening on port 3000
+2024-10-17T02:59:08.265Z [INFO]: Database Connected
+2024-10-17T02:59:14.121Z [INFO]: listening on port 3000
+2024-10-17T02:59:15.330Z [INFO]: Database Connected
+2024-10-17T02:59:18.560Z [INFO]: listening on port 3000
+2024-10-17T02:59:19.743Z [INFO]: Database Connected
+2024-10-17T02:59:22.579Z [INFO]: listening on port 3000
+2024-10-17T02:59:24.998Z [INFO]: listening on port 3000
+2024-10-17T02:59:26.169Z [INFO]: Database Connected
+2024-10-17T02:59:29.032Z [INFO]: listening on port 3000
+2024-10-17T02:59:30.128Z [INFO]: Database Connected
+2024-10-17T02:59:34.316Z [INFO]: listening on port 3000
+2024-10-17T02:59:36.232Z [INFO]: listening on port 3000
+2024-10-17T02:59:37.441Z [INFO]: Database Connected
+2024-10-17T02:59:38.990Z [INFO]: listening on port 3000
+2024-10-17T02:59:40.065Z [INFO]: Database Connected
+2024-10-17T02:59:44.316Z [INFO]: listening on port 3000
+2024-10-17T02:59:45.607Z [INFO]: listening on port 3000
+2024-10-17T02:59:46.757Z [INFO]: Database Connected
+2024-10-17T02:59:49.411Z [INFO]: listening on port 3000
+2024-10-17T02:59:50.663Z [INFO]: Database Connected
+2024-10-17T02:59:54.080Z [INFO]: listening on port 3000
+2024-10-17T02:59:56.581Z [INFO]: listening on port 3000
+2024-10-17T02:59:57.757Z [INFO]: Database Connected
+2024-10-17T03:00:01.241Z [INFO]: listening on port 3000
+2024-10-17T03:00:02.583Z [INFO]: Database Connected
+2024-10-17T03:00:05.765Z [INFO]: listening on port 3000
+2024-10-17T03:00:06.887Z [INFO]: Database Connected
+2024-10-17T03:00:11.655Z [INFO]: listening on port 3000
+2024-10-17T03:00:12.823Z [INFO]: Database Connected
+2024-10-17T03:00:18.123Z [INFO]: listening on port 3000
+2024-10-17T03:00:19.223Z [INFO]: Database Connected
+2024-10-17T03:00:22.440Z [INFO]: listening on port 3000
+2024-10-17T03:00:23.504Z [INFO]: Database Connected
+2024-10-17T03:00:39.189Z [INFO]: listening on port 3000
+2024-10-17T03:00:40.438Z [INFO]: Database Connected
+2024-10-17T03:00:44.946Z [INFO]: listening on port 3000
+2024-10-17T03:00:46.104Z [INFO]: Database Connected
+2024-10-17T03:00:47.856Z [INFO]: listening on port 3000
+2024-10-17T03:00:51.732Z [INFO]: listening on port 3000
+2024-10-17T03:00:53.192Z [INFO]: listening on port 3000
+2024-10-17T03:00:55.002Z [INFO]: listening on port 3000
+2024-10-17T03:00:56.199Z [INFO]: Database Connected
+2024-10-17T03:00:58.107Z [INFO]: listening on port 3000
+2024-10-17T03:00:59.873Z [INFO]: listening on port 3000
+2024-10-17T03:01:01.265Z [INFO]: listening on port 3000
+2024-10-17T03:01:02.357Z [INFO]: Database Connected
+2024-10-17T03:04:28.030Z [INFO]: listening on port 3000
+2024-10-17T03:04:29.846Z [INFO]: Database Connected
+2024-10-17T03:04:33.497Z [INFO]: listening on port 3000
+2024-10-17T03:04:34.821Z [INFO]: Database Connected
+2024-10-17T03:04:42.281Z [INFO]: listening on port 3000
+2024-10-17T03:04:43.484Z [INFO]: Database Connected
+2024-10-17T03:04:45.896Z [INFO]: listening on port 3000
+2024-10-17T03:04:46.955Z [INFO]: Database Connected
+2024-10-17T03:04:51.019Z [INFO]: listening on port 3000
+2024-10-17T03:04:52.101Z [INFO]: Database Connected
+2024-10-17T03:04:59.252Z [INFO]: listening on port 3000
+2024-10-17T03:05:01.236Z [INFO]: listening on port 3000
+2024-10-17T03:05:02.890Z [INFO]: listening on port 3000
+2024-10-17T03:05:04.405Z [INFO]: Database Connected
+2024-10-17T03:05:10.441Z [INFO]: listening on port 3000
+2024-10-17T03:05:11.701Z [INFO]: Database Connected
+2024-10-17T03:05:14.385Z [INFO]: listening on port 3000
+2024-10-17T03:05:15.881Z [INFO]: listening on port 3000
+2024-10-17T03:05:17.530Z [INFO]: listening on port 3000
+2024-10-17T03:05:18.675Z [INFO]: Database Connected
+2024-10-17T03:05:22.119Z [INFO]: listening on port 3000
+2024-10-17T03:05:23.300Z [INFO]: Database Connected
+2024-10-17T03:05:30.375Z [INFO]: listening on port 3000
+2024-10-17T03:05:31.646Z [INFO]: Database Connected
+2024-10-17T03:05:43.441Z [INFO]: listening on port 3000
+2024-10-17T03:05:44.634Z [INFO]: Database Connected
+2024-10-17T03:05:46.525Z [INFO]: listening on port 3000
+2024-10-17T03:05:48.617Z [INFO]: listening on port 3000
+2024-10-17T03:05:49.700Z [INFO]: Database Connected
+2024-10-17T03:05:53.402Z [INFO]: listening on port 3000
+2024-10-17T03:05:54.553Z [INFO]: Database Connected
+2024-10-17T03:05:56.868Z [INFO]: listening on port 3000
+2024-10-17T03:05:57.900Z [INFO]: Database Connected
+2024-10-17T03:06:01.049Z [INFO]: listening on port 3000
+2024-10-17T03:06:02.219Z [INFO]: Database Connected
+2024-10-17T03:06:06.081Z [INFO]: listening on port 3000
+2024-10-17T03:06:07.195Z [INFO]: Database Connected
+2024-10-17T03:06:10.074Z [INFO]: listening on port 3000
+2024-10-17T03:06:11.180Z [INFO]: Database Connected
+2024-10-17T03:06:13.940Z [INFO]: listening on port 3000
+2024-10-17T03:06:15.089Z [INFO]: Database Connected
+2024-10-17T03:06:20.032Z [INFO]: listening on port 3000
+2024-10-17T03:06:21.205Z [INFO]: Database Connected
+2024-10-17T03:06:31.165Z [INFO]: listening on port 3000
+2024-10-17T03:06:32.951Z [INFO]: listening on port 3000
+2024-10-17T03:06:35.103Z [INFO]: listening on port 3000
+2024-10-17T03:06:36.180Z [INFO]: Database Connected
+2024-10-17T03:06:38.071Z [INFO]: listening on port 3000
+2024-10-17T03:06:39.297Z [INFO]: listening on port 3000
+2024-10-17T03:06:40.339Z [INFO]: Database Connected
+2024-10-17T03:06:44.483Z [INFO]: listening on port 3000
+2024-10-17T03:06:45.563Z [INFO]: Database Connected
+2024-10-17T03:07:04.033Z [INFO]: listening on port 3000
+2024-10-17T03:07:05.153Z [INFO]: Database Connected
+2024-10-17T03:07:21.899Z [INFO]: listening on port 3000
+2024-10-17T03:07:23.624Z [INFO]: listening on port 3000
+2024-10-17T03:07:33.956Z [INFO]: listening on port 3000
+2024-10-17T03:07:36.116Z [INFO]: listening on port 3000
+2024-10-17T03:07:37.240Z [INFO]: Database Connected
+2024-10-17T03:07:44.503Z [INFO]: listening on port 3000
+2024-10-17T03:07:46.541Z [INFO]: listening on port 3000
+2024-10-17T03:07:47.699Z [INFO]: Database Connected
+2024-10-17T03:07:53.889Z [INFO]: listening on port 3000
+2024-10-17T03:07:54.994Z [INFO]: Database Connected
+2024-10-17T03:07:59.633Z [INFO]: listening on port 3000
+2024-10-17T03:08:00.921Z [INFO]: listening on port 3000
+2024-10-17T03:08:02.221Z [INFO]: Database Connected
+2024-10-17T03:08:13.958Z [INFO]: listening on port 3000
+2024-10-17T03:08:16.238Z [INFO]: listening on port 3000
+2024-10-17T03:08:17.378Z [INFO]: Database Connected
+2024-10-17T03:08:29.416Z [INFO]: listening on port 3000
+2024-10-17T03:08:30.617Z [INFO]: Database Connected
+2024-10-17T03:08:34.123Z [INFO]: listening on port 3000
+2024-10-17T03:08:35.192Z [INFO]: Database Connected
+2024-10-17T03:08:39.186Z [INFO]: listening on port 3000
+2024-10-17T03:08:40.607Z [INFO]: Database Connected
+2024-10-17T03:08:42.897Z [INFO]: listening on port 3000
+2024-10-17T03:08:48.206Z [INFO]: listening on port 3000
+2024-10-17T03:08:49.258Z [INFO]: Database Connected
+2024-10-17T03:09:06.906Z [INFO]: listening on port 3000
+2024-10-17T03:09:08.042Z [INFO]: Database Connected
+2024-10-17T03:09:09.810Z [INFO]: listening on port 3000
+2024-10-17T03:09:11.906Z [INFO]: listening on port 3000
+2024-10-17T03:27:45.868Z [INFO]: listening on port 3000
+2024-10-17T03:27:47.464Z [INFO]: Database Connected
+2024-10-17T03:27:50.757Z [INFO]: Incoming request: GET /api/user/all-users?page=1&limit=1000000
+2024-10-17T03:27:50.766Z [INFO]: Incoming request: GET /api/loan/all?status=&page=1&limit=10000
+2024-10-17T03:31:08.129Z [INFO]: Incoming request: GET /api/user/all-users?page=1&limit=1000000
+2024-10-17T03:31:08.158Z [INFO]: Incoming request: GET /api/loan/all?status=&page=1&limit=10000
+2024-10-17T03:33:22.593Z [INFO]: Incoming request: GET /api/loan/all?status=Finished&page=1&limit=10000
+2024-10-17T03:33:23.975Z [INFO]: Incoming request: GET /api/loan/all?status=Pending&page=1&limit=10000
+2024-10-17T03:33:25.334Z [INFO]: Incoming request: GET /api/loan/all?status=Approved&page=1&limit=10000
+2024-10-17T03:34:33.332Z [INFO]: Incoming request: GET /api/loan/all?status=&page=1&limit=10000
+2024-10-17T03:34:43.650Z [INFO]: Incoming request: GET /api/area/all?page=1&limit=1000000
+2024-10-17T03:34:59.582Z [INFO]: Incoming request: GET /api/user/all-users?page=1&limit=1000000
+2024-10-17T03:34:59.584Z [INFO]: Incoming request: GET /api/area/all?page=1&limit=1000000
+2024-10-17T03:34:59.586Z [INFO]: Incoming request: GET /api/loan/all?status=&page=1&limit=10000
+2024-10-17T03:47:12.515Z [INFO]: Incoming request: GET /api/user/all-users?page=1&limit=10000
+2024-10-17T03:47:19.015Z [INFO]: Incoming request: GET /api/user/all-users?page=1&limit=10000
+2024-10-17T03:47:30.859Z [INFO]: Incoming request: GET /api/user/all-users?page=1&limit=10000
+2024-10-17T03:50:04.675Z [INFO]: Incoming request: GET /api/user/all-users?page=1&limit=10000
+2024-10-17T09:44:07.914Z [INFO]: listening on port 3000
+2024-10-17T09:44:13.972Z [INFO]: Database Connected
+2024-10-17T09:53:19.657Z [INFO]: Incoming request: GET /api/loan/all?status=&page=1&limit=10000
+2024-10-17T09:53:22.169Z [INFO]: Incoming request: GET /api/area/all?page=1&limit=1000000
+2024-10-17T09:53:22.172Z [INFO]: Incoming request: GET /api/user/all-users?page=1&limit=1000000
+2024-10-17T09:53:30.171Z [INFO]: Incoming request: GET /api/loan//reminder?endDate=2024-10-17
+2024-10-17T09:55:18.334Z [INFO]: Incoming request: GET /api/user/all-users?page=1&limit=10000
+2024-10-17T09:55:58.022Z [INFO]: Incoming request: PUT /api/user/update/6706e6b3ba23410536a05c5e
+2024-10-17T09:56:07.776Z [INFO]: Incoming request: PUT /api/user/update/6706e6b3ba23410536a05c5e
+2024-10-17T09:56:37.787Z [INFO]: Incoming request: GET /api/user/all-users?page=1&limit=10000
+2024-10-17T09:57:24.056Z [INFO]: Incoming request: PUT /api/user/update/6706e6b3ba23410536a05c5e
+2024-10-17T09:57:24.671Z [INFO]: Incoming request: GET /api/user/all-users?page=1&limit=10000
+2024-10-17T09:57:49.979Z [INFO]: Incoming request: GET /api/area/all?page=1&limit=100000
+2024-10-17T09:57:53.328Z [INFO]: Incoming request: GET /api/customer/all-customers?page=1&limit=10000
+2024-10-17T09:57:55.889Z [INFO]: Incoming request: GET /api/guarantor/all?page=1&limit=10000
+2024-10-17T09:57:59.175Z [INFO]: Incoming request: GET /api/loan/all?status=&page=1&limit=10000
+2024-10-17T09:57:59.177Z [INFO]: Incoming request: GET /api/loan/all?status=Pending&page=1&limit=10000
+2024-10-17T09:57:59.180Z [INFO]: Incoming request: GET /api/customer/search?customerCode=
+2024-10-17T09:57:59.183Z [INFO]: Incoming request: GET /api/setting
+2024-10-17T09:57:59.730Z [INFO]: Incoming request: GET /api/customer/search?customerCode=undefined
+2024-10-17T09:58:13.114Z [INFO]: Incoming request: GET /api/loan/all?status=Approved&page=1&limit=10000
+2024-10-17T09:58:15.668Z [INFO]: Incoming request: GET /api/loan/all?status=Finished&page=1&limit=10000
+2024-10-17T09:58:18.137Z [INFO]: Incoming request: GET /api/loan/all?status=Rejected&page=1&limit=10000
+2024-10-17T09:58:24.855Z [INFO]: Incoming request: PUT /api/loan/action/671065d1978772524f464aab
+2024-10-17T09:58:25.132Z [INFO]: Incoming request: GET /api/loan/all?status=Pending&page=1&limit=10000
+2024-10-17T09:58:25.134Z [INFO]: Incoming request: GET /api/loan/all?status=Rejected&page=1&limit=10000
+2024-10-17T09:58:29.822Z [INFO]: Incoming request: GET /api/loan/all?status=&page=1&limit=10000
+2024-10-17T09:58:34.858Z [INFO]: Incoming request: GET /api/payment/671065d9978772524f464ab1
+2024-10-17T09:58:34.860Z [INFO]: Incoming request: GET /api/loan/671065d9978772524f464ab1
+2024-10-17T09:58:53.944Z [INFO]: Incoming request: POST /api/payment/create
+2024-10-17T09:58:54.050Z [INFO]: Incoming request: GET /api/payment/671065d9978772524f464ab1
+2024-10-17T09:59:03.460Z [INFO]: Incoming request: DELETE /api/payment/delete/6710dfdd11dccf5c86378c9c
+2024-10-17T09:59:03.653Z [INFO]: Incoming request: GET /api/payment/671065d9978772524f464ab1
+2024-10-17T09:59:07.832Z [INFO]: Incoming request: POST /api/payment/create
+2024-10-17T09:59:07.950Z [INFO]: Incoming request: GET /api/payment/671065d9978772524f464ab1
+2024-10-17T10:00:09.126Z [INFO]: Incoming request: GET /api/user/all-users?page=1&limit=10000
+2024-10-17T10:00:18.993Z [INFO]: Incoming request: POST /api/user/register
+2024-10-17T10:00:19.073Z [INFO]: Incoming request: GET /api/user/all-users?page=1&limit=10000
+2024-10-17T10:00:25.801Z [INFO]: Incoming request: PUT /api/user/update/6706e6b3ba23410536a05c5e
+2024-10-17T10:00:25.953Z [INFO]: Incoming request: GET /api/user/all-users?page=1&limit=10000
+2024-10-17T10:01:37.173Z [INFO]: Incoming request: GET /api/user/all-users?page=1&limit=10000
+2024-10-17T10:01:42.194Z [INFO]: Incoming request: PUT /api/user/update/6706e6b3ba23410536a05c5e
+2024-10-17T10:01:42.295Z [INFO]: Incoming request: GET /api/user/all-users?page=1&limit=10000
+2024-10-17T10:01:53.267Z [INFO]: Incoming request: PUT /api/user/update/6706e6b3ba23410536a05c5e
+2024-10-17T10:01:53.376Z [INFO]: Incoming request: GET /api/user/all-users?page=1&limit=10000
+2024-10-17T10:04:21.251Z [INFO]: listening on port 3000
+2024-10-17T10:04:22.398Z [INFO]: Database Connected
+2024-10-17T10:04:33.319Z [INFO]: listening on port 3000
+2024-10-17T10:04:35.028Z [INFO]: listening on port 3000
+2024-10-17T10:04:36.022Z [INFO]: Database Connected
+2024-10-17T10:04:42.803Z [INFO]: listening on port 3000
+2024-10-17T10:04:47.115Z [INFO]: listening on port 3000
+2024-10-17T10:04:48.583Z [INFO]: Database Connected
+2024-10-17T10:08:39.487Z [INFO]: listening on port 3000
+2024-10-17T10:08:41.088Z [INFO]: Database Connected
+2024-10-17T10:08:43.433Z [INFO]: listening on port 3000
+2024-10-17T10:08:44.394Z [INFO]: Database Connected
+2024-10-17T10:08:48.800Z [INFO]: listening on port 3000
+2024-10-17T10:08:49.769Z [INFO]: Database Connected
+2024-10-17T10:09:03.274Z [INFO]: listening on port 3000
+2024-10-17T10:09:04.314Z [INFO]: Database Connected
+2024-10-17T10:09:20.253Z [INFO]: listening on port 3000
+2024-10-17T10:09:21.235Z [INFO]: Database Connected
+2024-10-17T10:09:33.604Z [INFO]: listening on port 3000
+2024-10-17T10:09:34.539Z [INFO]: Database Connected
+2024-10-17T10:09:48.740Z [INFO]: listening on port 3000
+2024-10-17T10:09:49.993Z [INFO]: Database Connected
+2024-10-17T10:09:59.990Z [INFO]: listening on port 3000
+2024-10-17T10:10:01.877Z [INFO]: listening on port 3000
+2024-10-17T10:10:02.884Z [INFO]: Database Connected
+2024-10-17T10:10:04.767Z [INFO]: listening on port 3000
+2024-10-17T10:10:05.778Z [INFO]: Database Connected
+2024-10-17T10:10:21.075Z [INFO]: listening on port 3000
+2024-10-17T10:10:22.044Z [INFO]: Database Connected
+2024-10-17T10:10:26.334Z [INFO]: listening on port 3000
+2024-10-17T10:10:27.362Z [INFO]: Database Connected
+2024-10-17T10:10:41.406Z [INFO]: listening on port 3000
+2024-10-17T10:10:42.418Z [INFO]: Database Connected
+2024-10-17T10:10:51.540Z [INFO]: listening on port 3000
+2024-10-17T10:10:57.234Z [INFO]: listening on port 3000
+2024-10-17T10:10:58.403Z [INFO]: Database Connected
+2024-10-17T10:11:02.055Z [INFO]: listening on port 3000
+2024-10-17T10:11:03.618Z [INFO]: listening on port 3000
+2024-10-17T10:11:04.699Z [INFO]: Database Connected
+2024-10-17T10:11:08.130Z [INFO]: listening on port 3000
+2024-10-17T10:11:09.177Z [INFO]: Database Connected
+2024-10-17T10:11:12.644Z [INFO]: listening on port 3000
+2024-10-17T10:11:14.098Z [INFO]: Database Connected
+2024-10-17T10:11:15.958Z [INFO]: listening on port 3000
+2024-10-17T10:11:18.042Z [INFO]: listening on port 3000
+2024-10-17T10:11:18.952Z [INFO]: Database Connected
+2024-10-17T10:11:23.556Z [INFO]: listening on port 3000
+2024-10-17T10:11:28.071Z [INFO]: listening on port 3000
+2024-10-17T10:11:29.057Z [INFO]: Database Connected
+2024-10-17T10:11:32.176Z [INFO]: listening on port 3000
+2024-10-17T10:11:33.152Z [INFO]: Database Connected
+2024-10-17T10:11:38.429Z [INFO]: listening on port 3000
+2024-10-17T10:11:42.037Z [INFO]: listening on port 3000
+2024-10-17T10:11:43.019Z [INFO]: Database Connected
+2024-10-17T10:11:45.992Z [INFO]: listening on port 3000
+2024-10-17T10:11:47.114Z [INFO]: Database Connected
+2024-10-17T10:11:49.934Z [INFO]: listening on port 3000
+2024-10-17T10:11:51.003Z [INFO]: Database Connected
+2024-10-17T10:12:23.322Z [INFO]: listening on port 3000
+2024-10-17T10:12:24.321Z [INFO]: Database Connected
+2024-10-17T10:12:27.524Z [INFO]: listening on port 3000
+2024-10-17T10:12:29.084Z [INFO]: listening on port 3000
+2024-10-17T10:12:30.017Z [INFO]: Database Connected
+2024-10-17T10:12:47.191Z [INFO]: listening on port 3000
+2024-10-17T10:12:48.257Z [INFO]: Database Connected
+2024-10-17T10:12:57.244Z [INFO]: listening on port 3000
+2024-10-17T10:12:59.594Z [INFO]: listening on port 3000
+2024-10-17T10:13:00.562Z [INFO]: Database Connected
+2024-10-17T10:13:26.566Z [INFO]: listening on port 3000
+2024-10-17T10:13:27.698Z [INFO]: Database Connected
+2024-10-17T10:14:26.337Z [INFO]: Incoming request: GET /api/user/all-users?page=1&limit=10000
+2024-10-17T10:16:04.485Z [INFO]: Incoming request: GET /api/user/all-users?page=1&limit=10000
+2024-10-17T10:16:26.961Z [INFO]: Incoming request: GET /api/user/all-users?page=1&limit=10000
+2024-10-17T10:18:35.869Z [INFO]: Incoming request: PUT /api/user/update/6706e6b3ba23410536a05c5e
+2024-10-17T10:18:35.983Z [INFO]: Incoming request: GET /api/user/all-users?page=1&limit=10000
+2024-10-17T10:18:41.106Z [INFO]: Incoming request: GET /api/user/all-users?page=1&limit=10000
+2024-10-17T10:19:32.505Z [INFO]: Incoming request: GET /api/user/all-users?page=1&limit=10000
+2024-10-17T10:19:41.380Z [INFO]: Incoming request: PUT /api/user/update/6706e6b3ba23410536a05c5e
+2024-10-17T10:19:41.652Z [INFO]: Incoming request: GET /api/user/all-users?page=1&limit=10000
+2024-10-17T10:20:16.450Z [INFO]: listening on port 3000
+2024-10-17T10:20:17.814Z [INFO]: Database Connected
+2024-10-17T10:20:21.926Z [INFO]: listening on port 3000
+2024-10-17T10:20:22.992Z [INFO]: Database Connected
+2024-10-17T10:20:33.187Z [INFO]: listening on port 3000
+2024-10-17T10:20:34.522Z [INFO]: listening on port 3000
+2024-10-17T10:20:35.572Z [INFO]: Database Connected
+2024-10-17T10:20:49.285Z [INFO]: listening on port 3000
+2024-10-17T10:20:52.370Z [INFO]: listening on port 3000
+2024-10-17T10:20:55.253Z [INFO]: listening on port 3000
+2024-10-17T10:20:58.523Z [INFO]: listening on port 3000
+2024-10-17T10:21:02.610Z [INFO]: listening on port 3000
+2024-10-17T10:21:05.528Z [INFO]: listening on port 3000
+2024-10-17T10:21:09.386Z [INFO]: listening on port 3000
+2024-10-17T10:21:10.447Z [INFO]: Database Connected
+2024-10-17T10:21:13.727Z [INFO]: listening on port 3000
+2024-10-17T10:21:14.987Z [INFO]: Database Connected
+2024-10-17T10:21:17.942Z [INFO]: listening on port 3000
+2024-10-17T10:21:19.192Z [INFO]: Database Connected
+2024-10-17T10:21:23.046Z [INFO]: listening on port 3000
+2024-10-17T10:21:25.624Z [INFO]: listening on port 3000
+2024-10-17T10:21:29.014Z [INFO]: listening on port 3000
+2024-10-17T10:21:32.542Z [INFO]: listening on port 3000
+2024-10-17T10:21:34.152Z [INFO]: Database Connected
+2024-10-17T10:21:37.908Z [INFO]: listening on port 3000
+2024-10-17T10:21:39.067Z [INFO]: Database Connected
+2024-10-17T10:21:50.240Z [INFO]: Incoming request: GET /api/user/all-users?page=1&limit=10000
+2024-10-17T10:21:56.484Z [INFO]: Incoming request: PUT /api/user/update/6706e6b3ba23410536a05c5e
+2024-10-17T10:21:56.584Z [INFO]: Incoming request: GET /api/user/all-users?page=1&limit=10000
+2024-10-17T10:22:08.541Z [INFO]: Incoming request: GET /api/user/all-users?page=1&limit=10000
+2024-10-17T10:22:55.406Z [INFO]: Incoming request: POST /api/user/login
+2024-10-17T10:23:46.144Z [INFO]: Incoming request: GET /api/user/all-users?page=1&limit=10000
+2024-10-17T10:25:34.107Z [INFO]: Incoming request: POST /api/user/register
+2024-10-17T10:25:34.420Z [INFO]: Incoming request: GET /api/user/all-users?page=1&limit=10000
+2024-10-17T10:26:36.637Z [INFO]: Incoming request: POST /api/user/login
+2024-10-17T10:27:11.885Z [INFO]: Incoming request: POST /api/user/login
+2024-10-17T10:27:18.261Z [INFO]: Incoming request: POST /api/user/login
+2024-10-17T10:28:17.269Z [INFO]: Incoming request: GET /api/user/all-users?page=1&limit=10000
+2024-10-17T10:28:28.452Z [INFO]: Incoming request: PUT /api/user/update/6710e61e7a953164d404e631
+2024-10-17T10:28:28.680Z [INFO]: Incoming request: GET /api/user/all-users?page=1&limit=10000
+2024-10-17T10:28:39.110Z [INFO]: Incoming request: POST /api/user/login
+2024-10-17T10:28:47.817Z [INFO]: Incoming request: POST /api/user/login
+2024-10-17T10:29:24.654Z [INFO]: Incoming request: POST /api/user/login
+2024-10-17T10:29:28.979Z [INFO]: Incoming request: POST /api/user/login
+2024-10-17T10:29:50.800Z [INFO]: Incoming request: GET /api/user/all-users?page=1&limit=10000
+2024-10-17T10:29:50.804Z [INFO]: Incoming request: GET /api/area/all?page=1&limit=100000
+2024-10-17T10:30:06.044Z [INFO]: Incoming request: PUT /api/user/update/6710e61e7a953164d404e631
+2024-10-17T10:30:06.162Z [INFO]: Incoming request: GET /api/user/all-users?page=1&limit=10000
+2024-10-17T10:30:39.374Z [INFO]: Incoming request: PUT /api/user/update/6710e61e7a953164d404e631
+2024-10-17T10:30:39.576Z [INFO]: Incoming request: GET /api/user/all-users?page=1&limit=10000
+2024-10-17T10:31:23.435Z [INFO]: Incoming request: PUT /api/user/update/6710e61e7a953164d404e631
+2024-10-17T10:31:23.665Z [INFO]: Incoming request: GET /api/user/all-users?page=1&limit=10000
+2024-10-17T10:32:34.758Z [INFO]: listening on port 3000
+2024-10-17T10:32:36.165Z [INFO]: Database Connected
+2024-10-17T10:32:48.145Z [INFO]: listening on port 3000
+2024-10-17T10:32:50.226Z [INFO]: listening on port 3000
+2024-10-17T10:32:51.982Z [INFO]: listening on port 3000
+2024-10-17T10:32:53.752Z [INFO]: listening on port 3000
+2024-10-17T10:32:55.787Z [INFO]: listening on port 3000
+2024-10-17T10:32:58.263Z [INFO]: listening on port 3000
+2024-10-17T10:32:59.685Z [INFO]: Database Connected
+2024-10-17T10:33:04.031Z [INFO]: listening on port 3000
+2024-10-17T10:33:05.206Z [INFO]: Database Connected
+2024-10-17T10:33:08.590Z [INFO]: listening on port 3000
+2024-10-17T10:33:09.763Z [INFO]: Database Connected
+2024-10-17T10:33:17.394Z [INFO]: listening on port 3000
+2024-10-17T10:33:18.564Z [INFO]: Database Connected
+2024-10-17T10:33:23.011Z [INFO]: listening on port 3000
+2024-10-17T10:33:26.780Z [INFO]: listening on port 3000
+2024-10-17T10:33:28.874Z [INFO]: Database Connected
+2024-10-17T10:33:33.104Z [INFO]: Incoming request: PUT /api/user/update/6710e61e7a953164d404e631
+2024-10-17T10:33:33.429Z [INFO]: Incoming request: GET /api/user/all-users?page=1&limit=10000
+2024-10-17T10:34:16.785Z [INFO]: listening on port 3000
+2024-10-17T10:34:17.988Z [INFO]: Database Connected
+2024-10-17T10:34:25.839Z [INFO]: listening on port 3000
+2024-10-17T10:34:27.005Z [INFO]: Database Connected
+2024-10-17T10:34:33.805Z [INFO]: listening on port 3000
+2024-10-17T10:34:34.910Z [INFO]: Database Connected
+2024-10-17T10:34:42.271Z [INFO]: Incoming request: PUT /api/user/update/6710e61e7a953164d404e631
+2024-10-17T10:34:42.801Z [INFO]: Incoming request: GET /api/user/all-users?page=1&limit=10000
+2024-10-17T10:35:02.249Z [INFO]: listening on port 3000
+2024-10-17T10:35:05.430Z [INFO]: listening on port 3000
+2024-10-17T10:35:17.699Z [INFO]: listening on port 3000
+2024-10-17T10:35:18.849Z [INFO]: Database Connected
+2024-10-17T10:35:28.292Z [INFO]: listening on port 3000
+2024-10-17T10:35:32.702Z [INFO]: listening on port 3000
+2024-10-17T10:35:35.457Z [INFO]: listening on port 3000
+2024-10-17T10:35:36.603Z [INFO]: Database Connected
+2024-10-17T10:35:42.520Z [INFO]: Incoming request: PUT /api/user/update/6710e61e7a953164d404e631
+2024-10-17T10:35:42.621Z [INFO]: Incoming request: GET /api/user/all-users?page=1&limit=10000
+2024-10-17T10:36:10.289Z [INFO]: listening on port 3000
+2024-10-17T10:36:12.047Z [INFO]: listening on port 3000
+2024-10-17T10:36:13.044Z [INFO]: Database Connected
+2024-10-17T10:36:21.281Z [INFO]: listening on port 3000
+2024-10-17T10:36:21.627Z [INFO]: Incoming request: PUT /api/user/update/6710e61e7a953164d404e631
+2024-10-17T10:36:21.723Z [INFO]: Incoming request: GET /api/user/all-users?page=1&limit=10000
+2024-10-17T10:36:22.378Z [INFO]: Database Connected
+2024-10-17T10:36:25.297Z [INFO]: Incoming request: PUT /api/user/update/6710e61e7a953164d404e631
+2024-10-17T10:36:25.397Z [INFO]: Incoming request: GET /api/user/all-users?page=1&limit=10000
+2024-10-17T10:36:56.485Z [INFO]: listening on port 3000
+2024-10-17T10:36:57.577Z [INFO]: Database Connected
+2024-10-17T10:37:27.292Z [INFO]: listening on port 3000
+2024-10-17T10:37:28.426Z [INFO]: Database Connected
+2024-10-17T10:37:32.315Z [INFO]: Incoming request: PUT /api/user/update/6710e61e7a953164d404e631
+2024-10-17T10:37:32.615Z [INFO]: Incoming request: GET /api/user/all-users?page=1&limit=10000
+2024-10-17T10:37:49.866Z [INFO]: listening on port 3000
+2024-10-17T10:37:50.987Z [INFO]: Database Connected
+2024-10-17T10:37:58.629Z [INFO]: listening on port 3000
+2024-10-17T10:37:59.815Z [INFO]: Database Connected
+2024-10-17T10:38:02.569Z [INFO]: listening on port 3000
+2024-10-17T10:38:03.551Z [INFO]: Database Connected
+2024-10-17T10:38:25.960Z [INFO]: listening on port 3000
+2024-10-17T10:38:26.961Z [INFO]: Database Connected
+2024-10-17T10:38:29.873Z [INFO]: listening on port 3000
+2024-10-17T10:38:31.022Z [INFO]: Database Connected
+2024-10-17T10:38:46.653Z [INFO]: Incoming request: PUT /api/user/update/6710e61e7a953164d404e631
+2024-10-17T10:38:46.934Z [INFO]: Incoming request: GET /api/user/all-users?page=1&limit=10000
+2024-10-17T10:39:15.404Z [INFO]: listening on port 3000
+2024-10-17T10:39:16.480Z [INFO]: Database Connected
+2024-10-17T10:39:21.302Z [INFO]: listening on port 3000
+2024-10-17T10:39:22.280Z [INFO]: Database Connected
+2024-10-17T10:39:30.903Z [INFO]: Incoming request: PUT /api/user/update/6710e61e7a953164d404e631
+2024-10-17T10:39:31.198Z [INFO]: Incoming request: GET /api/user/all-users?page=1&limit=10000
+2024-10-17T10:40:53.312Z [INFO]: listening on port 3000
+2024-10-17T10:40:54.349Z [INFO]: Database Connected
+2024-10-17T10:40:57.640Z [INFO]: listening on port 3000
+2024-10-17T10:40:58.743Z [INFO]: Database Connected
+2024-10-17T10:41:03.200Z [INFO]: Incoming request: PUT /api/user/update/6710e61e7a953164d404e631
+2024-10-17T10:41:03.504Z [INFO]: Incoming request: GET /api/user/all-users?page=1&limit=10000
+2024-10-17T10:41:21.236Z [INFO]: listening on port 3000
+2024-10-17T10:41:23.517Z [INFO]: listening on port 3000
+2024-10-17T10:41:24.680Z [INFO]: Database Connected
+2024-10-17T10:41:27.004Z [INFO]: listening on port 3000
+2024-10-17T10:41:28.055Z [INFO]: Database Connected
+2024-10-17T10:41:35.247Z [INFO]: listening on port 3000
+2024-10-17T10:41:36.299Z [INFO]: Database Connected
+2024-10-17T10:41:39.343Z [INFO]: Incoming request: PUT /api/user/update/6710e61e7a953164d404e631
+2024-10-17T10:41:39.612Z [INFO]: Incoming request: GET /api/user/all-users?page=1&limit=10000
+2024-10-17T10:41:53.798Z [INFO]: listening on port 3000
+2024-10-17T10:41:54.894Z [INFO]: Database Connected
+2024-10-17T10:41:56.736Z [INFO]: listening on port 3000
+2024-10-17T10:41:58.105Z [INFO]: Database Connected
+2024-10-17T10:42:09.632Z [INFO]: Incoming request: PUT /api/user/update/6710e61e7a953164d404e631
+2024-10-17T10:42:09.948Z [INFO]: Incoming request: GET /api/user/all-users?page=1&limit=10000
+2024-10-17T10:45:04.536Z [INFO]: listening on port 3000
+2024-10-17T10:45:05.839Z [INFO]: Database Connected
+2024-10-17T10:45:10.231Z [INFO]: listening on port 3000
+2024-10-17T10:45:13.001Z [INFO]: listening on port 3000
+2024-10-17T10:45:15.187Z [INFO]: listening on port 3000
+2024-10-17T10:45:17.791Z [INFO]: listening on port 3000
+2024-10-17T10:45:20.930Z [INFO]: listening on port 3000
+2024-10-17T10:45:22.066Z [INFO]: Database Connected
+2024-10-17T10:45:24.095Z [INFO]: listening on port 3000
+2024-10-17T10:45:26.929Z [INFO]: listening on port 3000
+2024-10-17T10:45:28.147Z [INFO]: Database Connected
+2024-10-17T10:45:31.035Z [INFO]: listening on port 3000
+2024-10-17T10:45:33.570Z [INFO]: listening on port 3000
+2024-10-17T10:45:36.030Z [INFO]: listening on port 3000
+2024-10-17T10:45:37.382Z [INFO]: Database Connected
+2024-10-17T10:45:39.019Z [INFO]: listening on port 3000
+2024-10-17T10:45:41.330Z [INFO]: listening on port 3000
+2024-10-17T10:45:42.382Z [INFO]: Database Connected
+2024-10-17T10:45:44.834Z [INFO]: listening on port 3000
+2024-10-17T10:45:45.837Z [INFO]: Database Connected
+2024-10-17T10:46:02.511Z [INFO]: listening on port 3000
+2024-10-17T10:46:03.716Z [INFO]: Database Connected
+2024-10-17T10:46:12.050Z [INFO]: listening on port 3000
+2024-10-17T10:46:13.317Z [INFO]: Database Connected
+2024-10-17T10:46:18.365Z [INFO]: listening on port 3000
+2024-10-17T10:46:19.421Z [INFO]: Database Connected
+2024-10-17T10:46:28.789Z [INFO]: Incoming request: PUT /api/user/update/6710e61e7a953164d404e631
+2024-10-17T10:46:29.018Z [INFO]: Incoming request: GET /api/user/all-users?page=1&limit=10000
+2024-10-17T10:46:44.229Z [INFO]: Incoming request: PUT /api/user/update/6710e61e7a953164d404e631
+2024-10-17T10:46:44.495Z [INFO]: Incoming request: GET /api/user/all-users?page=1&limit=10000
+2024-10-17T10:46:56.535Z [INFO]: listening on port 3000
+2024-10-17T10:46:57.719Z [INFO]: Database Connected
+2024-10-17T10:47:02.289Z [INFO]: listening on port 3000
+2024-10-17T10:47:03.356Z [INFO]: Database Connected
+2024-10-17T10:47:04.758Z [INFO]: listening on port 3000
+2024-10-17T10:47:06.801Z [INFO]: listening on port 3000
+2024-10-17T10:47:07.899Z [INFO]: Database Connected
+2024-10-17T10:47:11.829Z [INFO]: Incoming request: PUT /api/user/update/6710e61e7a953164d404e631
+2024-10-17T10:47:12.162Z [INFO]: Incoming request: GET /api/user/all-users?page=1&limit=10000
+2024-10-17T10:47:28.885Z [INFO]: Incoming request: PUT /api/user/update/6710e61e7a953164d404e631
+2024-10-17T10:47:29.213Z [INFO]: Incoming request: GET /api/user/all-users?page=1&limit=10000
+2024-10-17T10:47:34.457Z [INFO]: Incoming request: GET /api/user/all-users?page=1&limit=10000
+2024-10-17T10:48:31.618Z [INFO]: listening on port 3000
+2024-10-17T10:48:32.956Z [INFO]: Database Connected
+2024-10-17T10:48:42.313Z [INFO]: listening on port 3000
+2024-10-17T10:48:43.435Z [INFO]: Database Connected
+2024-10-17T10:48:45.157Z [INFO]: listening on port 3000
+2024-10-17T10:48:46.326Z [INFO]: Database Connected
+2024-10-17T10:48:48.667Z [INFO]: listening on port 3000
+2024-10-17T10:48:50.835Z [INFO]: Database Connected
+2024-10-17T10:48:53.161Z [INFO]: listening on port 3000
+2024-10-17T10:48:54.210Z [INFO]: Database Connected
+2024-10-17T10:49:01.595Z [INFO]: listening on port 3000
+2024-10-17T10:49:02.675Z [INFO]: Database Connected
+2024-10-17T10:50:15.711Z [INFO]: Incoming request: POST /api/user/register
+2024-10-17T10:50:16.027Z [INFO]: Incoming request: GET /api/user/all-users?page=1&limit=10000
+2024-10-17T10:50:41.251Z [INFO]: listening on port 3000
+2024-10-17T10:50:42.394Z [INFO]: Database Connected
+2024-10-17T10:50:46.039Z [INFO]: listening on port 3000
+2024-10-17T10:50:47.619Z [INFO]: listening on port 3000
+2024-10-17T10:50:48.657Z [INFO]: Database Connected
+2024-10-17T11:01:28.498Z [INFO]: Incoming request: POST /api/user/register
+2024-10-17T11:01:28.836Z [INFO]: Incoming request: GET /api/user/all-users?page=1&limit=10000
+2024-10-17T11:01:54.361Z [INFO]: Incoming request: GET /api/user/all-users?page=1&limit=10000
+2024-10-17T11:02:01.129Z [INFO]: Incoming request: POST /api/user/login
+2024-10-17T11:02:05.603Z [INFO]: Incoming request: POST /api/user/login
+2024-10-17T11:02:15.161Z [INFO]: Incoming request: POST /api/user/login
+2024-10-17T11:02:46.899Z [INFO]: listening on port 3000
+2024-10-17T11:02:48.806Z [INFO]: listening on port 3000
+2024-10-17T11:02:49.886Z [INFO]: Database Connected
+2024-10-17T11:02:51.809Z [INFO]: Incoming request: POST /api/user/login
+2024-10-17T11:02:59.356Z [INFO]: listening on port 3000
+2024-10-17T11:03:00.387Z [INFO]: Database Connected
+2024-10-17T11:03:03.219Z [INFO]: listening on port 3000
+2024-10-17T11:03:04.226Z [INFO]: Database Connected
+2024-10-17T11:03:54.878Z [INFO]: listening on port 3000
+2024-10-17T11:03:56.105Z [INFO]: Database Connected
+2024-10-17T11:04:00.805Z [INFO]: listening on port 3000
+2024-10-17T11:04:01.867Z [INFO]: Database Connected
+2024-10-17T11:04:08.344Z [INFO]: listening on port 3000
+2024-10-17T11:04:09.722Z [INFO]: Database Connected
+2024-10-17T11:04:11.906Z [INFO]: listening on port 3000
+2024-10-17T11:04:13.000Z [INFO]: Database Connected
+2024-10-17T11:04:59.590Z [INFO]: Incoming request: POST /api/user/login
+2024-10-17T11:05:28.424Z [INFO]: Incoming request: POST /api/user/login
+2024-10-17T11:05:31.774Z [INFO]: Incoming request: POST /api/user/login
+2024-10-17T11:06:41.636Z [INFO]: Incoming request: GET /api/user/all-users?page=1&limit=10000
+2024-10-17T11:06:44.367Z [INFO]: Incoming request: GET /api/user/all-users?page=1&limit=10000
+2024-10-17T11:06:57.871Z [INFO]: Incoming request: GET /api/area/all?page=1&limit=100000
+2024-10-17T11:07:50.068Z [INFO]: Incoming request: POST /api/area/create
+2024-10-17T11:07:50.269Z [INFO]: Incoming request: GET /api/user/all-users?page=1&limit=10000
+2024-10-17T11:07:50.271Z [INFO]: Incoming request: GET /api/area/all?page=1&limit=100000
+2024-10-17T11:08:06.939Z [INFO]: Incoming request: POST /api/area/create
+2024-10-17T11:08:07.130Z [INFO]: Incoming request: GET /api/user/all-users?page=1&limit=10000
+2024-10-17T11:08:07.132Z [INFO]: Incoming request: GET /api/area/all?page=1&limit=100000
+2024-10-17T11:08:46.211Z [INFO]: Incoming request: POST /api/area/create
+2024-10-17T11:08:46.646Z [INFO]: Incoming request: GET /api/area/all?page=1&limit=100000
+2024-10-17T11:08:46.648Z [INFO]: Incoming request: GET /api/user/all-users?page=1&limit=10000
+2024-10-17T11:08:56.996Z [INFO]: Incoming request: POST /api/area/create
+2024-10-17T11:08:57.177Z [INFO]: Incoming request: GET /api/user/all-users?page=1&limit=10000
+2024-10-17T11:08:57.179Z [INFO]: Incoming request: GET /api/area/all?page=1&limit=100000
+2024-10-17T11:08:58.730Z [INFO]: Incoming request: GET /api/guarantor/all?page=1&limit=10000
+2024-10-17T11:08:59.755Z [INFO]: Incoming request: GET /api/customer/all-customers?page=1&limit=10000
+2024-10-17T11:10:10.078Z [INFO]: listening on port 3000
+2024-10-17T11:10:11.382Z [INFO]: Database Connected
+2024-10-17T11:10:24.025Z [INFO]: listening on port 3000
+2024-10-17T11:10:25.122Z [INFO]: Database Connected
+2024-10-17T11:11:07.840Z [INFO]: listening on port 3000
+2024-10-17T11:11:10.080Z [INFO]: listening on port 3000
+2024-10-17T11:11:11.245Z [INFO]: Database Connected
+2024-10-17T11:11:16.592Z [INFO]: listening on port 3000
+2024-10-17T11:11:17.662Z [INFO]: Database Connected
+2024-10-17T11:11:42.554Z [INFO]: listening on port 3000
+2024-10-17T11:11:43.724Z [INFO]: Database Connected
+2024-10-17T11:11:49.239Z [INFO]: listening on port 3000
+2024-10-17T11:11:50.422Z [INFO]: Database Connected
+2024-10-17T11:12:03.921Z [INFO]: listening on port 3000
+2024-10-17T11:12:05.987Z [INFO]: listening on port 3000
+2024-10-17T11:12:07.063Z [INFO]: Database Connected
+2024-10-17T11:12:10.038Z [INFO]: listening on port 3000
+2024-10-17T11:12:11.720Z [INFO]: listening on port 3000
+2024-10-17T11:12:12.808Z [INFO]: Database Connected
+2024-10-17T11:12:15.823Z [INFO]: listening on port 3000
+2024-10-17T11:12:17.451Z [INFO]: listening on port 3000
+2024-10-17T11:12:18.475Z [INFO]: Database Connected
+2024-10-17T11:12:22.196Z [INFO]: listening on port 3000
+2024-10-17T11:12:23.460Z [INFO]: Database Connected
+2024-10-17T11:12:25.321Z [INFO]: listening on port 3000
+2024-10-17T11:12:27.174Z [INFO]: listening on port 3000
+2024-10-17T11:12:28.404Z [INFO]: Database Connected
+2024-10-17T11:12:30.858Z [INFO]: listening on port 3000
+2024-10-17T11:12:32.387Z [INFO]: listening on port 3000
+2024-10-17T11:12:33.419Z [INFO]: Database Connected
+2024-10-17T11:12:36.412Z [INFO]: listening on port 3000
+2024-10-17T11:12:37.456Z [INFO]: Database Connected
+2024-10-17T11:12:43.059Z [INFO]: listening on port 3000
+2024-10-17T11:12:45.664Z [INFO]: listening on port 3000
+2024-10-17T11:12:46.739Z [INFO]: Database Connected
+2024-10-17T11:12:49.904Z [INFO]: listening on port 3000
+2024-10-17T11:12:53.154Z [INFO]: listening on port 3000
+2024-10-17T11:12:54.368Z [INFO]: Database Connected
+2024-10-17T11:12:57.375Z [INFO]: listening on port 3000
+2024-10-17T11:13:00.336Z [INFO]: listening on port 3000
+2024-10-17T11:13:01.595Z [INFO]: Database Connected
+2024-10-17T11:13:09.499Z [INFO]: listening on port 3000
+2024-10-17T11:13:10.594Z [INFO]: Database Connected
+2024-10-17T11:13:14.120Z [INFO]: listening on port 3000
+2024-10-17T11:13:20.798Z [INFO]: listening on port 3000
+2024-10-17T11:13:21.980Z [INFO]: Database Connected
+2024-10-17T11:13:24.343Z [INFO]: listening on port 3000
+2024-10-17T11:13:25.643Z [INFO]: Database Connected
+2024-10-17T11:13:28.658Z [INFO]: listening on port 3000
+2024-10-17T11:13:29.739Z [INFO]: Database Connected
+2024-10-17T11:13:31.934Z [INFO]: listening on port 3000
+2024-10-17T11:13:33.059Z [INFO]: Database Connected
+2024-10-17T11:13:52.125Z [INFO]: listening on port 3000
+2024-10-17T11:13:53.203Z [INFO]: Database Connected
+2024-10-17T11:19:44.862Z [INFO]: Incoming request: POST /api/customer/create
+2024-10-17T11:19:45.014Z [INFO]: Incoming request: GET /api/customer/all-customers?page=1&limit=10000
+2024-10-17T11:19:56.176Z [INFO]: Incoming request: PUT /api/customer/update/6710f2d03c5c5fe8e405161c
+2024-10-17T11:19:56.384Z [INFO]: Incoming request: GET /api/customer/all-customers?page=1&limit=10000
+2024-10-17T11:21:40.997Z [INFO]: listening on port 3000
+2024-10-17T11:21:42.399Z [INFO]: Database Connected
+2024-10-17T11:22:49.261Z [INFO]: Incoming request: POST /api/customer/create
+2024-10-17T11:22:49.409Z [INFO]: Incoming request: GET /api/customer/all-customers?page=1&limit=10000
+2024-10-17T11:22:54.513Z [INFO]: Incoming request: GET /api/guarantor/all?page=1&limit=10000
+2024-10-17T11:25:23.722Z [INFO]: listening on port 3000
+2024-10-17T11:25:25.747Z [INFO]: listening on port 3000
+2024-10-17T11:25:26.852Z [INFO]: Database Connected
+2024-10-17T11:25:39.707Z [INFO]: listening on port 3000
+2024-10-17T11:25:41.745Z [INFO]: Database Connected
+2024-10-17T11:26:00.596Z [INFO]: listening on port 3000
+2024-10-17T11:26:03.535Z [INFO]: listening on port 3000
+2024-10-17T11:26:05.892Z [INFO]: Database Connected
+2024-10-17T11:26:35.627Z [INFO]: listening on port 3000
+2024-10-17T11:26:40.171Z [INFO]: Database Connected
+2024-10-17T11:27:11.230Z [INFO]: Incoming request: POST /api/guarantor/create
+2024-10-17T11:27:11.462Z [INFO]: Incoming request: GET /api/guarantor/all?page=1&limit=10000
+2024-10-17T11:27:33.271Z [INFO]: Incoming request: PUT /api/guarantor/update/6710f48f9f65964692330957
+2024-10-17T11:27:33.798Z [INFO]: Incoming request: GET /api/guarantor/all?page=1&limit=10000
+2024-10-17T11:27:41.028Z [INFO]: Incoming request: GET /api/guarantor/all?page=1&limit=10000
+2024-10-17T11:31:58.527Z [INFO]: Incoming request: POST /api/guarantor/create
+2024-10-17T11:31:58.800Z [INFO]: Incoming request: GET /api/guarantor/all?page=1&limit=10000
+2024-10-17T11:32:03.972Z [INFO]: Incoming request: GET /api/user/all-users?page=1&limit=10000
+2024-10-17T11:32:13.351Z [INFO]: Incoming request: GET /api/area/all?page=1&limit=100000
+2024-10-17T11:32:25.885Z [INFO]: Incoming request: PUT /api/area/update/6710f03e28c8a3ec2394e5fe
+2024-10-17T11:32:25.993Z [INFO]: Incoming request: GET /api/user/all-users?page=1&limit=10000
+2024-10-17T11:32:25.996Z [INFO]: Incoming request: GET /api/area/all?page=1&limit=100000
+2024-10-17T11:32:30.365Z [INFO]: Incoming request: PUT /api/area/update/6710f04928c8a3ec2394e605
+2024-10-17T11:32:30.459Z [INFO]: Incoming request: GET /api/area/all?page=1&limit=100000
+2024-10-17T11:32:30.461Z [INFO]: Incoming request: GET /api/user/all-users?page=1&limit=10000
+2024-10-17T11:32:45.482Z [INFO]: Incoming request: GET /api/customer/all-customers?page=1&limit=10000
+2024-10-17T11:32:47.952Z [INFO]: Incoming request: GET /api/loan/all?status=Pending&page=1&limit=10000
+2024-10-17T11:32:47.955Z [INFO]: Incoming request: GET /api/loan/all?status=&page=1&limit=10000
+2024-10-17T11:32:47.957Z [INFO]: Incoming request: GET /api/setting
+2024-10-17T11:32:47.959Z [INFO]: Incoming request: GET /api/customer/search?customerCode=
+2024-10-17T11:33:10.509Z [INFO]: Incoming request: GET /api/setting
+2024-10-17T11:33:14.879Z [INFO]: Incoming request: GET /api/area/all?page=1&limit=100000
+2024-10-17T11:33:14.881Z [INFO]: Incoming request: GET /api/customer/all-customers?page=1&limit=10000
+2024-10-17T11:36:38.252Z [INFO]: Incoming request: GET /api/guarantor/all?page=1&limit=10000
+2024-10-17T11:37:04.762Z [INFO]: Incoming request: GET /api/user/all-users?page=1&limit=10000
+2024-10-17T11:37:30.321Z [INFO]: listening on port 3000
+2024-10-17T11:37:31.964Z [INFO]: Database Connected
+2024-10-17T11:38:23.780Z [INFO]: Incoming request: GET /api/area/all?page=1&limit=100000
+2024-10-17T11:38:23.789Z [INFO]: Incoming request: GET /api/customer/all-customers?page=1&limit=10000
+2024-10-17T11:38:46.758Z [INFO]: Incoming request: GET /api/area/all?page=1&limit=100000
+2024-10-17T11:38:46.793Z [INFO]: Incoming request: GET /api/customer/all-customers?page=1&limit=10000
+2024-10-17T11:40:36.436Z [INFO]: Incoming request: GET /api/guarantor/all?page=1&limit=10000
+2024-10-17T11:40:44.084Z [INFO]: Incoming request: GET /api/guarantor/all?page=1&limit=10000
+2024-10-17T11:41:18.720Z [INFO]: Incoming request: PUT /api/guarantor/update/6710f48f9f65964692330957
+2024-10-17T11:41:18.930Z [INFO]: Incoming request: GET /api/guarantor/all?page=1&limit=10000
+2024-10-17T11:42:23.423Z [INFO]: Incoming request: POST /api/guarantor/create
+2024-10-17T11:42:24.033Z [INFO]: Incoming request: GET /api/guarantor/all?page=1&limit=10000
+2024-10-17T11:42:36.975Z [INFO]: Incoming request: POST /api/guarantor/create
+2024-10-17T11:42:37.511Z [INFO]: Incoming request: GET /api/guarantor/all?page=1&limit=10000
+2024-10-17T11:43:05.414Z [INFO]: listening on port 3000
+2024-10-17T11:43:07.643Z [INFO]: Database Connected
+2024-10-17T11:43:21.807Z [INFO]: listening on port 3000
+2024-10-17T11:43:24.142Z [INFO]: Database Connected
+2024-10-17T11:46:38.335Z [INFO]: listening on port 3000
+2024-10-17T11:46:41.253Z [INFO]: Database Connected
+2024-10-17T11:47:03.256Z [INFO]: listening on port 3000
+2024-10-17T11:47:05.622Z [INFO]: Database Connected
+2024-10-17T11:47:15.114Z [INFO]: listening on port 3000
+2024-10-17T11:47:18.514Z [INFO]: listening on port 3000
+2024-10-17T11:47:19.815Z [INFO]: Database Connected
+2024-10-17T11:47:21.919Z [INFO]: listening on port 3000
+2024-10-17T11:47:25.122Z [INFO]: Incoming request: POST /api/guarantor/create
+2024-10-17T11:47:25.382Z [INFO]: Database Connected
+2024-10-17T11:47:27.497Z [INFO]: Incoming request: GET /api/guarantor/all?page=1&limit=10000
+2024-10-17T11:47:29.459Z [INFO]: Incoming request: POST /api/guarantor/create
+2024-10-17T11:47:30.062Z [INFO]: Incoming request: GET /api/guarantor/all?page=1&limit=10000
+2024-10-17T11:48:28.569Z [INFO]: Incoming request: POST /api/guarantor/create
+2024-10-17T11:48:28.749Z [INFO]: Incoming request: GET /api/guarantor/all?page=1&limit=10000
+2024-10-17T11:48:32.683Z [INFO]: Incoming request: POST /api/guarantor/create
+2024-10-17T11:48:33.927Z [INFO]: Incoming request: GET /api/guarantor/all?page=1&limit=10000
+2024-10-17T11:48:38.894Z [INFO]: Incoming request: POST /api/guarantor/create
+2024-10-17T11:48:39.553Z [INFO]: Incoming request: GET /api/guarantor/all?page=1&limit=10000
+2024-10-17T11:48:49.420Z [INFO]: Incoming request: GET /api/area/all?page=1&limit=100000
+2024-10-17T11:48:49.422Z [INFO]: Incoming request: GET /api/customer/all-customers?page=1&limit=10000
+2024-10-17T11:49:03.211Z [INFO]: listening on port 3000
+2024-10-17T11:49:07.000Z [INFO]: Incoming request: GET /api/user/all-users?page=1&limit=10000
+2024-10-17T11:49:16.869Z [INFO]: Database Connected
+2024-10-17T11:50:35.264Z [INFO]: listening on port 3000
+2024-10-17T11:50:38.291Z [INFO]: Database Connected
+2024-10-17T11:50:59.189Z [INFO]: listening on port 3000
+2024-10-17T11:51:00.595Z [INFO]: Database Connected
+2024-10-17T11:51:02.078Z [INFO]: listening on port 3000
+2024-10-17T11:51:05.291Z [INFO]: listening on port 3000
+2024-10-17T11:51:07.076Z [INFO]: Database Connected
+2024-10-17T11:51:18.000Z [INFO]: listening on port 3000
+2024-10-17T11:51:21.290Z [INFO]: Database Connected
+2024-10-17T11:53:47.869Z [INFO]: Incoming request: POST /api/customer/create
+2024-10-17T11:53:48.002Z [INFO]: Incoming request: GET /api/customer/all-customers?page=1&limit=10000
+2024-10-17T11:53:53.062Z [INFO]: Incoming request: POST /api/customer/create
+2024-10-17T11:53:53.181Z [INFO]: Incoming request: GET /api/customer/all-customers?page=1&limit=10000
+2024-10-17T11:54:00.215Z [INFO]: Incoming request: GET /api/guarantor/all?page=1&limit=10000
+2024-10-17T11:54:03.924Z [INFO]: Incoming request: GET /api/user/all-users?page=1&limit=10000
+2024-10-17T11:55:05.269Z [INFO]: Incoming request: GET /api/customer/all-customers?page=1&limit=10000
+2024-10-17T11:55:10.233Z [INFO]: Incoming request: GET /api/customer/search?customerCode=C9446915
+2024-10-17T11:55:10.344Z [INFO]: Incoming request: GET /api/customer/search?customerCode=C9446915
+2024-10-17T11:55:10.354Z [INFO]: Incoming request: GET /api/customer/search?customerCode=undefined
+2024-10-17T11:55:18.722Z [INFO]: Incoming request: GET /api/guarantor/all?page=1&limit=10000
+2024-10-17T11:55:23.123Z [INFO]: Incoming request: GET /api/guarantor/search?guarantorCode=G2946447
+2024-10-17T11:55:46.111Z [INFO]: Incoming request: GET /api/setting
+2024-10-17T11:55:54.951Z [INFO]: Incoming request: PUT /api/setting
+2024-10-17T11:55:55.144Z [INFO]: Incoming request: GET /api/setting
+2024-10-17T11:55:59.732Z [INFO]: Incoming request: PUT /api/setting
+2024-10-17T11:55:59.937Z [INFO]: Incoming request: GET /api/setting
+2024-10-17T11:57:22.529Z [INFO]: listening on port 3000
+2024-10-17T11:57:31.307Z [INFO]: listening on port 3000
+2024-10-17T11:57:38.789Z [INFO]: listening on port 3000
+2024-10-17T11:58:05.013Z [INFO]: listening on port 3000
+2024-10-17T11:58:08.879Z [INFO]: Incoming request: GET /api/customer/search?customerCode=C3405340
+2024-10-17T11:58:08.926Z [INFO]: Incoming request: GET /api/customer/search?customerCode=undefined
+2024-10-17T11:58:15.898Z [INFO]: Incoming request: GET /api/guarantor/search?guarantorCode=G2946447
+2024-10-17T11:58:18.897Z [INFO]: Incoming request: GET /api/customer/search?customerCode=C3405340
+2024-10-17T11:58:54.536Z [INFO]: Incoming request: GET /api/guarantor/search?guarantorCode=G2946447
+2024-10-17T11:59:58.368Z [INFO]: Incoming request: GET /api/guarantor/search?guarantorCode=G294644
+2024-10-17T11:59:58.788Z [INFO]: Incoming request: GET /api/guarantor/search?guarantorCode=G2946447
+2024-10-17T12:00:19.819Z [INFO]: Incoming request: GET /api/customer/search?customerCode=G2946447
+2024-10-17T12:00:19.825Z [INFO]: Incoming request: GET /api/customer/search?customerCode=undefined
+2024-10-17T12:00:29.828Z [INFO]: Incoming request: GET /api/customer/search?customerCode=G2946447
+2024-10-17T12:29:53.294Z [INFO]: Incoming request: GET /api/area/all?page=1&limit=100000
+2024-10-17T12:29:53.340Z [INFO]: Incoming request: GET /api/customer/search?customerCode=
+2024-10-17T12:29:53.341Z [INFO]: Incoming request: GET /api/setting
+2024-10-17T12:29:53.345Z [INFO]: Incoming request: GET /api/loan/all?status=&page=1&limit=10000
+2024-10-17T12:29:53.347Z [INFO]: Incoming request: GET /api/loan/all?status=Pending&page=1&limit=10000
+2024-10-17T12:30:12.048Z [INFO]: listening on port 3000
+2024-10-17T12:30:14.911Z [INFO]: Database Connected
+2024-10-17T12:30:18.467Z [INFO]: Incoming request: GET /api/area/all?page=1&limit=100000
+2024-10-17T12:30:18.477Z [INFO]: Incoming request: GET /api/loan/all?status=Pending&page=1&limit=10000
+2024-10-17T12:30:18.490Z [INFO]: Incoming request: GET /api/setting
+2024-10-17T12:30:18.494Z [INFO]: Incoming request: GET /api/customer/search?customerCode=
+2024-10-17T12:30:18.499Z [INFO]: Incoming request: GET /api/loan/all?status=&page=1&limit=10000
+2024-10-17T12:30:45.158Z [INFO]: Incoming request: GET /api/guarantor/all?page=1&limit=10000
+2024-10-17T12:30:49.868Z [INFO]: Incoming request: GET /api/guarantor/search?guarantorCode=G2946447
+2024-10-17T12:30:54.957Z [INFO]: Incoming request: GET /api/area/all?page=1&limit=100000
+2024-10-17T12:30:54.960Z [INFO]: Incoming request: GET /api/customer/all-customers?page=1&limit=10000
+2024-10-17T12:31:01.005Z [INFO]: Incoming request: GET /api/customer/search?customerCode=undefined
+2024-10-17T12:31:01.094Z [INFO]: Incoming request: GET /api/customer/search?customerCode=C9446915
+2024-10-17T12:31:01.178Z [INFO]: Incoming request: GET /api/customer/search?customerCode=C9446915
+2024-10-17T12:31:49.959Z [INFO]: Incoming request: POST /api/loan/create
+2024-10-17T12:31:50.089Z [INFO]: Incoming request: GET /api/loan/all?status=Pending&page=1&limit=10000
+2024-10-17T12:31:50.095Z [INFO]: Incoming request: GET /api/loan/all?status=&page=1&limit=10000
+2024-10-17T12:31:50.599Z [INFO]: Incoming request: GET /api/customer/search?customerCode=C9446915
+2024-10-17T12:31:50.605Z [INFO]: Incoming request: GET /api/guarantor/search?guarantorCode=G2946447
+2024-10-17T12:32:30.719Z [INFO]: Incoming request: GET /api/payment/671103b5d94a117135962918
+2024-10-17T12:32:30.741Z [INFO]: Incoming request: GET /api/loan/671103b5d94a117135962918
+2024-10-17T12:33:03.873Z [INFO]: Incoming request: GET /api/loan//reminder?endDate=2024-10-17
+2024-10-17T12:33:15.739Z [INFO]: Incoming request: GET /api/area/all?page=1&limit=1000000
+2024-10-17T12:33:15.741Z [INFO]: Incoming request: GET /api/user/all-users?page=1&limit=1000000
+2024-10-17T12:40:09.926Z [INFO]: Incoming request: GET /api/user/all-users?page=1&limit=1000000
+2024-10-17T12:40:09.928Z [INFO]: Incoming request: GET /api/area/all?page=1&limit=1000000
+2024-10-17T12:40:09.930Z [INFO]: Incoming request: GET /api/loan/all?status=&page=1&limit=10000
+2024-10-17T12:41:38.087Z [INFO]: Incoming request: GET /api/user/all-users?page=1&limit=1000000
+2024-10-17T12:41:38.096Z [INFO]: Incoming request: GET /api/area/all?page=1&limit=1000000
+2024-10-17T12:41:38.097Z [INFO]: Incoming request: GET /api/loan/all?status=&page=1&limit=10000
+2024-10-17T12:41:39.735Z [INFO]: Incoming request: GET /api/customer/all-customers?page=1&limit=10000
+2024-10-17T12:41:39.736Z [INFO]: Incoming request: GET /api/area/all?page=1&limit=100000
+2024-10-17T12:42:39.817Z [INFO]: Incoming request: GET /api/loan/all?status=Approved&page=1&limit=10000
+2024-10-17T12:50:41.206Z [INFO]: Incoming request: GET /api/user/all-users?page=1&limit=1000000
+2024-10-17T12:50:41.208Z [INFO]: Incoming request: GET /api/area/all?page=1&limit=1000000
+2024-10-17T12:50:41.210Z [INFO]: Incoming request: GET /api/loan/all?status=&page=1&limit=10000
+2024-10-17T13:02:30.836Z [INFO]: listening on port 3000
+2024-10-17T13:02:33.248Z [INFO]: listening on port 3000
+2024-10-17T13:02:34.357Z [INFO]: Database Connected
+2024-10-17T13:02:53.822Z [INFO]: listening on port 3000
+2024-10-17T13:02:54.813Z [INFO]: Database Connected
+2024-10-17T13:03:14.060Z [INFO]: listening on port 3000
+2024-10-17T13:03:16.067Z [INFO]: listening on port 3000
+2024-10-17T13:03:18.580Z [INFO]: listening on port 3000
+2024-10-17T13:03:19.631Z [INFO]: Database Connected
+2024-10-17T13:03:42.118Z [INFO]: listening on port 3000
+2024-10-17T13:03:43.212Z [INFO]: Database Connected
+2024-10-17T13:03:49.687Z [INFO]: listening on port 3000
+2024-10-17T13:03:50.772Z [INFO]: Database Connected
+2024-10-17T13:04:00.690Z [INFO]: listening on port 3000
+2024-10-17T13:04:01.826Z [INFO]: Database Connected
+2024-10-17T13:04:03.734Z [INFO]: listening on port 3000
+2024-10-17T13:04:04.756Z [INFO]: Database Connected
+2024-10-17T13:04:07.631Z [INFO]: listening on port 3000
+2024-10-17T13:04:08.737Z [INFO]: Database Connected
+2024-10-17T13:04:14.695Z [INFO]: listening on port 3000
+2024-10-17T13:04:15.714Z [INFO]: Database Connected
+2024-10-17T13:04:42.509Z [INFO]: listening on port 3000
+2024-10-17T13:04:44.900Z [INFO]: listening on port 3000
+2024-10-17T13:04:48.195Z [INFO]: listening on port 3000
+2024-10-17T13:04:49.201Z [INFO]: Database Connected
+2024-10-17T13:04:53.400Z [INFO]: listening on port 3000
+2024-10-17T13:04:54.483Z [INFO]: Database Connected
+2024-10-17T13:05:03.874Z [INFO]: listening on port 3000
+2024-10-17T13:05:06.531Z [INFO]: listening on port 3000
+2024-10-17T13:05:07.571Z [INFO]: Database Connected
+2024-10-17T13:05:14.828Z [INFO]: listening on port 3000
+2024-10-17T13:05:16.132Z [INFO]: Database Connected
+2024-10-17T13:05:18.654Z [INFO]: listening on port 3000
+2024-10-17T13:05:19.721Z [INFO]: Database Connected
+2024-10-17T13:05:25.362Z [INFO]: listening on port 3000
+2024-10-17T13:05:26.747Z [INFO]: listening on port 3000
+2024-10-17T13:05:27.742Z [INFO]: Database Connected
+2024-10-17T13:05:29.184Z [INFO]: listening on port 3000
+2024-10-17T13:05:30.291Z [INFO]: Database Connected
+2024-10-17T13:05:39.087Z [INFO]: listening on port 3000
+2024-10-17T13:05:40.353Z [INFO]: Database Connected
+2024-10-17T13:05:43.510Z [INFO]: listening on port 3000
+2024-10-17T13:05:44.501Z [INFO]: Database Connected
+2024-10-17T13:06:19.719Z [INFO]: listening on port 3000
+2024-10-17T13:06:20.851Z [INFO]: Database Connected
+2024-10-17T13:08:09.373Z [INFO]: Incoming request: GET /api/loan/all?status=Approved&page=1&limit=10000
+2024-10-17T13:08:10.548Z [INFO]: Incoming request: GET /api/loan/all?status=Pending&page=1&limit=10000
+2024-10-17T13:08:11.684Z [INFO]: Incoming request: GET /api/loan/all?status=Finished&page=1&limit=10000
+2024-10-17T13:08:12.868Z [INFO]: Incoming request: GET /api/loan/all?status=Rejected&page=1&limit=10000
+2024-10-17T13:09:16.576Z [INFO]: Incoming request: GET /api/loan/all?status=&page=1&limit=10000
+2024-10-17T13:09:17.585Z [INFO]: Incoming request: GET /api/area/all?page=1&limit=1000000
+2024-10-17T13:09:17.588Z [INFO]: Incoming request: GET /api/user/all-users?page=1&limit=1000000
+2024-10-17T13:09:23.203Z [INFO]: Incoming request: GET /api/loan//reminder?endDate=2024-10-17
+2024-10-17T13:12:42.918Z [INFO]: Incoming request: GET /api/loan/all?status=Pending&page=1&limit=10000
+2024-10-17T13:12:44.043Z [INFO]: Incoming request: GET /api/loan/all?status=Approved&page=1&limit=10000
+2024-10-17T13:12:45.379Z [INFO]: Incoming request: GET /api/loan/all?status=Finished&page=1&limit=10000
+2024-10-17T13:13:58.876Z [INFO]: Incoming request: GET /api/loan/all?status=&page=1&limit=10000
+2024-10-17T13:19:37.987Z [INFO]: listening on port 3000
+2024-10-17T13:19:39.157Z [INFO]: Database Connected
+2024-10-17T13:20:38.492Z [INFO]: Incoming request: POST /api/user-task/create
+2024-10-17T13:23:49.844Z [INFO]: Incoming request: POST /api/user-task/create
+2024-10-17T13:25:08.270Z [INFO]: listening on port 3000
+2024-10-17T13:25:09.907Z [INFO]: listening on port 3000
+2024-10-17T13:25:10.959Z [INFO]: Database Connected
+2024-10-17T13:25:16.092Z [INFO]: listening on port 3000
+2024-10-17T13:25:17.089Z [INFO]: Database Connected
+2024-10-17T13:25:20.016Z [INFO]: listening on port 3000
+2024-10-17T13:25:21.049Z [INFO]: Database Connected
+2024-10-17T13:25:28.689Z [INFO]: listening on port 3000
+2024-10-17T13:25:29.738Z [INFO]: Database Connected
+2024-10-17T13:25:38.854Z [INFO]: listening on port 3000
+2024-10-17T13:25:39.891Z [INFO]: Database Connected
+2024-10-17T13:25:41.322Z [INFO]: listening on port 3000
+2024-10-17T13:25:42.364Z [INFO]: Database Connected
+2024-10-17T13:25:43.905Z [INFO]: listening on port 3000
+2024-10-17T13:25:44.889Z [INFO]: Database Connected
+2024-10-17T13:26:27.661Z [INFO]: listening on port 3000
+2024-10-17T13:26:30.983Z [INFO]: listening on port 3000
+2024-10-17T13:26:32.756Z [INFO]: listening on port 3000
+2024-10-17T13:26:33.824Z [INFO]: Database Connected
+2024-10-17T13:26:38.632Z [INFO]: listening on port 3000
+2024-10-17T13:26:39.707Z [INFO]: Database Connected
+2024-10-17T13:26:44.075Z [INFO]: listening on port 3000
+2024-10-17T13:26:45.097Z [INFO]: Database Connected
+2024-10-17T13:26:51.482Z [INFO]: listening on port 3000
+2024-10-17T13:26:52.500Z [INFO]: Database Connected
+2024-10-17T13:26:58.575Z [INFO]: listening on port 3000
+2024-10-17T13:26:59.539Z [INFO]: Database Connected
+2024-10-17T13:27:28.065Z [INFO]: listening on port 3000
+2024-10-17T13:27:29.818Z [INFO]: listening on port 3000
+2024-10-17T13:27:30.808Z [INFO]: Database Connected
+2024-10-17T13:27:35.946Z [INFO]: listening on port 3000
+2024-10-17T13:27:37.113Z [INFO]: Database Connected
+2024-10-17T13:27:43.139Z [INFO]: listening on port 3000
+2024-10-17T13:27:44.142Z [INFO]: Database Connected
+2024-10-17T13:28:42.246Z [INFO]: Incoming request: POST /api/user-task/create
+2024-10-17T13:31:29.179Z [INFO]: Incoming request: POST /api/user-task/create
+2024-10-17T13:46:29.789Z [INFO]: Incoming request: GET /api/area/all?page=1&limit=1000000
+2024-10-17T13:46:29.799Z [INFO]: Incoming request: GET /api/user/all-users?page=1&limit=1000000
+2024-10-17T13:46:29.803Z [INFO]: Incoming request: GET /api/loan/all?status=&page=1&limit=10000
+2024-10-17T17:17:19.543Z [INFO]: listening on port 3000
+2024-10-17T17:17:20.949Z [INFO]: Database Connected
+2024-10-17T17:18:44.992Z [INFO]: Incoming request: GET /api/area/all?page=1&limit=1000000
+2024-10-17T17:18:45.002Z [INFO]: Incoming request: GET /api/loan/all?status=&page=1&limit=10000
+2024-10-17T17:18:45.005Z [INFO]: Incoming request: GET /api/user/all-users?page=1&limit=1000000
+2024-10-17T17:58:50.379Z [INFO]: Incoming request: GET /api/area/all?page=1&limit=1000000
+2024-10-17T17:58:50.387Z [INFO]: Incoming request: GET /api/loan/all?status=&page=1&limit=10000
+2024-10-17T17:58:50.389Z [INFO]: Incoming request: GET /api/user/all-users?page=1&limit=1000000
+2024-10-17T18:00:34.043Z [INFO]: Incoming request: GET /api/user/all-users?page=1&limit=1000000
+2024-10-17T18:00:34.046Z [INFO]: Incoming request: GET /api/area/all?page=1&limit=1000000
+2024-10-17T18:00:34.049Z [INFO]: Incoming request: GET /api/loan/all?status=&page=1&limit=10000
+2024-10-17T18:02:10.874Z [INFO]: Incoming request: GET /api/area/all?page=1&limit=1000000
+2024-10-17T18:02:10.876Z [INFO]: Incoming request: GET /api/user/all-users?page=1&limit=1000000
+2024-10-17T18:02:10.878Z [INFO]: Incoming request: GET /api/loan/all?status=&page=1&limit=10000
+2024-10-17T18:04:24.435Z [INFO]: Incoming request: GET /api/loan/all?status=6710e61e7a953164d404e631&page=1&limit=10000
+2024-10-17T18:04:26.149Z [INFO]: Incoming request: GET /api/loan/all?status=6710ebe7b8a7cd94a984496f&page=1&limit=10000
+2024-10-17T18:05:39.975Z [INFO]: Incoming request: GET /api/user/all-users?page=1&limit=1000000
+2024-10-17T18:05:39.976Z [INFO]: Incoming request: GET /api/area/all?page=1&limit=1000000
+2024-10-17T18:05:39.979Z [INFO]: Incoming request: GET /api/loan/all?status=&page=1&limit=10000
+2024-10-17T18:06:08.399Z [INFO]: Incoming request: GET /api/user/all-users?page=1&limit=1000000
+2024-10-17T18:06:08.401Z [INFO]: Incoming request: GET /api/area/all?page=1&limit=1000000
+2024-10-17T18:06:08.403Z [INFO]: Incoming request: GET /api/loan/all?status=&page=1&limit=10000
+2024-10-17T18:14:08.143Z [INFO]: Incoming request: GET /api/loan/all?status=6710e61e7a953164d404e631&page=1&limit=10000
+2024-10-17T18:15:24.179Z [INFO]: Incoming request: GET /api/user-task/all?search=undefined
+2024-10-17T18:15:31.852Z [INFO]: Incoming request: GET /api/user-task/all?search=
+2024-10-17T18:15:45.849Z [INFO]: Incoming request: GET /api/user/all-users?page=1&limit=1000000
+2024-10-17T18:15:45.851Z [INFO]: Incoming request: GET /api/area/all?page=1&limit=1000000
+2024-10-17T18:15:45.853Z [INFO]: Incoming request: GET /api/user-task/all?search=
+2024-10-17T18:17:48.507Z [INFO]: listening on port 3000
+2024-10-17T18:17:49.593Z [INFO]: Database Connected
+2024-10-17T18:17:50.692Z [INFO]: Incoming request: GET /api/user/all-users?page=1&limit=1000000
+2024-10-17T18:17:50.702Z [INFO]: Incoming request: GET /api/area/all?page=1&limit=1000000
+2024-10-17T18:17:50.706Z [INFO]: Incoming request: GET /api/user-task/all?search=
+2024-10-17T18:18:02.060Z [INFO]: listening on port 3000
+2024-10-17T18:18:03.621Z [INFO]: Database Connected
+2024-10-17T18:18:05.643Z [INFO]: listening on port 3000
+2024-10-17T18:18:06.664Z [INFO]: Database Connected
+2024-10-17T18:18:11.252Z [INFO]: listening on port 3000
+2024-10-17T18:18:12.275Z [INFO]: Database Connected
+2024-10-17T18:18:17.482Z [INFO]: listening on port 3000
+2024-10-17T18:18:19.254Z [INFO]: listening on port 3000
+2024-10-17T18:18:20.271Z [INFO]: Database Connected
+2024-10-17T18:18:25.362Z [INFO]: listening on port 3000
+2024-10-17T18:18:26.461Z [INFO]: Database Connected
+2024-10-17T18:18:29.633Z [INFO]: Incoming request: GET /api/user-task/all?search=
+2024-10-17T18:18:29.646Z [INFO]: Incoming request: GET /api/area/all?page=1&limit=1000000
+2024-10-17T18:18:29.659Z [INFO]: Incoming request: GET /api/user/all-users?page=1&limit=1000000
+2024-10-17T18:18:44.683Z [INFO]: listening on port 3000
+2024-10-17T18:18:45.680Z [INFO]: Database Connected
+2024-10-17T18:18:47.421Z [INFO]: Incoming request: GET /api/user/all-users?page=1&limit=1000000
+2024-10-17T18:18:47.430Z [INFO]: Incoming request: GET /api/area/all?page=1&limit=1000000
+2024-10-17T18:18:47.433Z [INFO]: Incoming request: GET /api/user-task/all?search=
+2024-10-17T18:19:00.889Z [INFO]: listening on port 3000
+2024-10-17T18:19:01.980Z [INFO]: Database Connected
+2024-10-17T18:19:09.913Z [INFO]: listening on port 3000
+2024-10-17T18:19:12.069Z [INFO]: Database Connected
+2024-10-17T18:20:59.475Z [INFO]: listening on port 3000
+2024-10-17T18:21:00.878Z [INFO]: Database Connected
+2024-10-17T18:21:02.276Z [INFO]: listening on port 3000
+2024-10-17T18:21:03.719Z [INFO]: Database Connected
+2024-10-17T18:21:09.523Z [INFO]: Incoming request: GET /api/user-task/all?search=
+2024-10-17T18:21:09.533Z [INFO]: Incoming request: GET /api/area/all?page=1&limit=1000000
+2024-10-17T18:21:09.537Z [INFO]: Incoming request: GET /api/user/all-users?page=1&limit=1000000
+2024-10-17T18:25:52.164Z [INFO]: listening on port 3000
+2024-10-17T18:25:53.687Z [INFO]: listening on port 3000
+2024-10-17T18:25:55.136Z [INFO]: listening on port 3000
+2024-10-17T18:25:58.738Z [INFO]: listening on port 3000
+2024-10-17T18:25:59.716Z [INFO]: Database Connected
+2024-10-17T18:26:03.503Z [INFO]: listening on port 3000
+2024-10-17T18:26:04.510Z [INFO]: Database Connected
+2024-10-17T18:26:06.304Z [INFO]: listening on port 3000
+2024-10-17T18:26:07.325Z [INFO]: Database Connected
+2024-10-17T18:26:09.294Z [INFO]: listening on port 3000
+2024-10-17T18:26:10.247Z [INFO]: Database Connected
+2024-10-17T18:26:21.646Z [INFO]: listening on port 3000
+2024-10-17T18:26:23.265Z [INFO]: Database Connected
+2024-10-17T18:26:30.399Z [INFO]: Incoming request: GET /api/user/all-users?page=1&limit=1000000
+2024-10-17T18:26:30.408Z [INFO]: Incoming request: GET /api/area/all?page=1&limit=1000000
+2024-10-17T18:26:30.411Z [INFO]: Incoming request: GET /api/user-task/all?search=
+2024-10-17T18:28:54.372Z [INFO]: listening on port 3000
+2024-10-17T18:28:55.703Z [INFO]: Database Connected
+2024-10-17T18:29:05.518Z [INFO]: Incoming request: GET /api/user/all-users?page=1&limit=1000000
+2024-10-17T18:29:05.535Z [INFO]: Incoming request: GET /api/area/all?page=1&limit=1000000
+2024-10-17T18:29:05.539Z [INFO]: Incoming request: GET /api/user-task/all?search=
+2024-10-17T18:38:05.340Z [INFO]: Incoming request: GET /api/user/all-users?page=1&limit=1000000
+2024-10-17T18:38:05.343Z [INFO]: Incoming request: GET /api/area/all?page=1&limit=1000000
+2024-10-17T18:38:05.345Z [INFO]: Incoming request: GET /api/user-task/all?search=
+2024-10-17T18:38:57.573Z [INFO]: Incoming request: GET /api/user/all-users?page=1&limit=1000000
+2024-10-17T18:38:57.576Z [INFO]: Incoming request: GET /api/area/all?page=1&limit=1000000
+2024-10-17T18:38:57.578Z [INFO]: Incoming request: GET /api/user-task/all?search=
+2024-10-17T18:41:27.456Z [INFO]: Incoming request: GET /api/user/all-users?page=1&limit=1000000
+2024-10-17T18:41:27.459Z [INFO]: Incoming request: GET /api/area/all?page=1&limit=1000000
+2024-10-17T18:41:27.460Z [INFO]: Incoming request: GET /api/user-task/all?search=
+2024-10-17T18:44:59.656Z [INFO]: Incoming request: POST /api/user-task/create
+2024-10-17T18:44:59.794Z [INFO]: Incoming request: GET /api/user-task/all?search=
+2024-10-17T18:45:56.129Z [INFO]: Incoming request: GET /api/user/all-users?page=1&limit=1000000
+2024-10-17T18:45:56.132Z [INFO]: Incoming request: GET /api/area/all?page=1&limit=1000000
+2024-10-17T18:45:56.134Z [INFO]: Incoming request: GET /api/user-task/all?search=
+2024-10-17T18:50:48.854Z [INFO]: Incoming request: GET /api/user-task/all?search=6710e61e7a953164d404e631
+2024-10-17T18:51:54.726Z [INFO]: Incoming request: GET /api/user/all-users?page=1&limit=1000000
+2024-10-17T18:51:54.728Z [INFO]: Incoming request: GET /api/area/all?page=1&limit=1000000
+2024-10-17T18:51:54.730Z [INFO]: Incoming request: GET /api/user-task/all?search=
+2024-10-17T19:40:34.917Z [INFO]: Incoming request: GET /api/user/all-users?page=1&limit=1000000
+2024-10-17T19:40:34.930Z [INFO]: Incoming request: GET /api/area/all?page=1&limit=1000000
+2024-10-17T19:40:34.932Z [INFO]: Incoming request: GET /api/user-task/all?search=
+2024-10-17T19:40:53.195Z [INFO]: Incoming request: GET /api/user/all-users?page=1&limit=1000000
+2024-10-17T19:40:53.200Z [INFO]: Incoming request: GET /api/area/all?page=1&limit=1000000
+2024-10-17T19:40:53.222Z [INFO]: Incoming request: GET /api/user-task/all?search=
+2024-10-17T19:41:03.677Z [INFO]: Incoming request: GET /api/user/all-users?page=1&limit=1000000
+2024-10-17T19:41:03.680Z [INFO]: Incoming request: GET /api/area/all?page=1&limit=1000000
+2024-10-17T19:41:03.682Z [INFO]: Incoming request: GET /api/user-task/all?search=
+2024-10-17T19:41:20.012Z [INFO]: Incoming request: GET /api/user-task/all?search=6710e61e7a953164d404e631
+2024-10-17T19:41:21.667Z [INFO]: Incoming request: GET /api/user-task/all?search=6710ebe7b8a7cd94a984496f
+2024-10-17T19:41:25.693Z [INFO]: Incoming request: GET /api/user-task/all?search=6710ee8897db892b5d121122
+2024-10-17T19:42:45.975Z [INFO]: Incoming request: POST /api/user-task/create
+2024-10-17T19:42:46.435Z [INFO]: Incoming request: GET /api/user-task/all?search=6710ee8897db892b5d121122
+2024-10-17T19:42:50.376Z [INFO]: Incoming request: GET /api/user-task/all?search=6710ebe7b8a7cd94a984496f
+2024-10-17T19:44:13.904Z [INFO]: Incoming request: GET /api/user-task/all?search=
+2024-10-17T19:44:44.925Z [INFO]: Incoming request: PUT /api/user-task/update/67110f2670070d0b092b8ab9
+2024-10-17T19:44:45.055Z [INFO]: Incoming request: GET /api/user-task/all?search=
+2024-10-17T19:44:53.445Z [INFO]: Incoming request: PUT /api/user-task/update/67110f2670070d0b092b8ab9
+2024-10-17T19:44:53.548Z [INFO]: Incoming request: GET /api/user-task/all?search=
+2024-10-17T19:45:20.405Z [INFO]: Incoming request: PUT /api/user-task/update/67110fe570070d0b092b8abb
+2024-10-17T19:45:20.509Z [INFO]: Incoming request: GET /api/user-task/all?search=
+2024-10-17T19:45:39.077Z [INFO]: Incoming request: PUT /api/user-task/update/67110fe570070d0b092b8abb
+2024-10-17T19:45:39.175Z [INFO]: Incoming request: GET /api/user-task/all?search=
+2024-10-17T19:45:46.360Z [INFO]: Incoming request: PUT /api/user-task/update/67110fe570070d0b092b8abb
+2024-10-17T19:45:46.507Z [INFO]: Incoming request: GET /api/user-task/all?search=
+2024-10-17T19:45:56.477Z [INFO]: Incoming request: PUT /api/user-task/update/67110f2670070d0b092b8ab9
+2024-10-17T19:45:56.581Z [INFO]: Incoming request: GET /api/user-task/all?search=
+2024-10-17T19:46:04.013Z [INFO]: Incoming request: PUT /api/user-task/update/67110f2670070d0b092b8ab9
+2024-10-17T19:46:04.120Z [INFO]: Incoming request: GET /api/user-task/all?search=
+2024-10-17T19:46:10.018Z [INFO]: Incoming request: GET /api/user/all-users?page=1&limit=1000000
+2024-10-17T19:46:10.020Z [INFO]: Incoming request: GET /api/area/all?page=1&limit=1000000
+2024-10-17T19:46:10.022Z [INFO]: Incoming request: GET /api/user-task/all?search=
+2024-10-17T19:46:15.535Z [INFO]: Incoming request: PUT /api/user-task/update/67110f2670070d0b092b8ab9
+2024-10-17T19:46:15.641Z [INFO]: Incoming request: GET /api/user-task/all?search=
+2024-10-17T19:46:25.037Z [INFO]: Incoming request: PUT /api/user-task/update/67110f2670070d0b092b8ab9
+2024-10-17T19:46:25.138Z [INFO]: Incoming request: GET /api/user-task/all?search=
+2024-10-17T19:46:28.750Z [INFO]: Incoming request: GET /api/user/all-users?page=1&limit=1000000
+2024-10-17T19:46:28.752Z [INFO]: Incoming request: GET /api/area/all?page=1&limit=1000000
+2024-10-17T19:46:28.754Z [INFO]: Incoming request: GET /api/user-task/all?search=
+2024-10-17T19:47:07.307Z [INFO]: Incoming request: GET /api/user-task/all?search=6710ebe7b8a7cd94a984496f
+2024-10-17T19:47:10.260Z [INFO]: Incoming request: GET /api/user-task/all?search=6710e61e7a953164d404e631
+2024-10-17T19:47:12.818Z [INFO]: Incoming request: GET /api/user-task/all?search=6710ee8897db892b5d121122
+2024-10-17T19:50:52.190Z [INFO]: Incoming request: DELETE /api/user-task/delete/[object%20Object]
+2024-10-17T19:50:52.208Z [INFO]: Incoming request: GET /api/user-task/all?search=
+2024-10-17T19:51:05.247Z [INFO]: Incoming request: GET /api/user/all-users?page=1&limit=1000000
+2024-10-17T19:51:05.249Z [INFO]: Incoming request: GET /api/area/all?page=1&limit=1000000
+2024-10-17T19:51:05.250Z [INFO]: Incoming request: GET /api/user-task/all?search=
+2024-10-17T19:51:08.606Z [INFO]: Incoming request: DELETE /api/user-task/delete/[object%20Object]
+2024-10-17T19:51:08.642Z [INFO]: Incoming request: GET /api/user-task/all?search=
+2024-10-17T19:52:22.675Z [INFO]: Incoming request: DELETE /api/user-task/delete/6711110aaa09071f48c9998e
+2024-10-17T19:52:22.931Z [INFO]: Incoming request: GET /api/user-task/all?search=
+2024-10-17T19:53:02.927Z [INFO]: listening on port 3000
+2024-10-17T19:53:04.510Z [INFO]: listening on port 3000
+2024-10-17T19:53:05.509Z [INFO]: Database Connected
+2024-10-17T19:53:14.125Z [INFO]: Incoming request: GET /api/user/all-users?page=1&limit=1000000
+2024-10-17T19:53:14.135Z [INFO]: Incoming request: GET /api/area/all?page=1&limit=1000000
+2024-10-17T19:53:14.139Z [INFO]: Incoming request: GET /api/user-task/all?search=
+2024-10-17T19:53:20.895Z [INFO]: Incoming request: DELETE /api/user-task/delete/671111b1aa09071f48c99990
+2024-10-17T19:53:21.072Z [INFO]: Incoming request: GET /api/user-task/all?search=
+2024-10-17T19:53:23.406Z [INFO]: Incoming request: GET /api/user-task/all?search=6710e61e7a953164d404e631
+2024-10-17T19:53:24.907Z [INFO]: Incoming request: GET /api/user-task/all?search=6710ebe7b8a7cd94a984496f
+2024-10-17T19:53:26.107Z [INFO]: Incoming request: GET /api/user-task/all?search=6710ee8897db892b5d121122
+2024-10-17T19:59:07.858Z [INFO]: Incoming request: GET /api/user-task/all?search=
+2024-10-17T20:01:22.190Z [INFO]: Incoming request: GET /api/user-task/all?search=
+2024-10-17T20:02:05.816Z [INFO]: Incoming request: GET /api/user/all-users?page=1&limit=1000000
+2024-10-17T20:02:05.818Z [INFO]: Incoming request: GET /api/area/all?page=1&limit=1000000
+2024-10-17T20:02:05.820Z [INFO]: Incoming request: GET /api/user-task/all?search=
+2024-10-17T20:11:35.724Z [INFO]: Incoming request: GET /api/loan/all?status=&page=1&limit=10000
+2024-10-17T20:11:37.878Z [INFO]: Incoming request: GET /api/payment/671103b5d94a117135962918
+2024-10-17T20:11:37.881Z [INFO]: Incoming request: GET /api/loan/671103b5d94a117135962918
+2024-10-17T20:11:47.021Z [INFO]: Incoming request: GET /api/loan/all?status=Pending&page=1&limit=10000
+2024-10-17T20:11:47.023Z [INFO]: Incoming request: GET /api/area/all?page=1&limit=100000
+2024-10-17T20:11:47.026Z [INFO]: Incoming request: GET /api/customer/search?customerCode=
+2024-10-17T20:11:47.028Z [INFO]: Incoming request: GET /api/setting
+2024-10-17T20:11:47.047Z [INFO]: Incoming request: GET /api/customer/search?customerCode=C9446915
+2024-10-17T20:11:47.049Z [INFO]: Incoming request: GET /api/guarantor/search?guarantorCode=G2946447
+2024-10-17T20:11:47.106Z [INFO]: Incoming request: GET /api/customer/search?customerCode=undefined
+2024-10-17T20:11:47.123Z [INFO]: Incoming request: GET /api/customer/search?customerCode=C9446915
+2024-10-17T20:18:28.681Z [INFO]: Incoming request: GET /api/user/all-users?page=1&limit=1000000
+2024-10-17T20:18:28.683Z [INFO]: Incoming request: GET /api/area/all?page=1&limit=1000000
+2024-10-17T20:22:21.989Z [INFO]: Incoming request: GET /api/user-task/all?search=
+2024-10-17T20:22:22.267Z [INFO]: Incoming request: GET /api/user/all-users?page=1&limit=1000000
+2024-10-17T20:22:22.269Z [INFO]: Incoming request: GET /api/area/all?page=1&limit=1000000
+2024-10-17T20:33:51.382Z [INFO]: Incoming request: GET /api/user-task/all?search=
+2024-10-17T20:33:51.648Z [INFO]: Incoming request: GET /api/user/all-users?page=1&limit=1000000
+2024-10-17T20:33:51.650Z [INFO]: Incoming request: GET /api/area/all?page=1&limit=1000000
+2024-10-17T20:38:03.816Z [INFO]: Incoming request: GET /api/area/all?page=1&limit=100000
+2024-10-17T20:38:03.824Z [INFO]: Incoming request: GET /api/customer/all-customers?page=1&limit=10000
+2024-10-17T20:38:28.612Z [INFO]: Incoming request: GET /api/loan/all?status=Pending&page=1&limit=10000
+2024-10-17T20:38:28.614Z [INFO]: Incoming request: GET /api/customer/search?customerCode=
+2024-10-17T20:38:28.616Z [INFO]: Incoming request: GET /api/setting
+2024-10-17T20:38:28.619Z [INFO]: Incoming request: GET /api/loan/all?status=&page=1&limit=10000
+2024-10-17T20:38:28.957Z [INFO]: Incoming request: GET /api/customer/search?customerCode=C9446915
+2024-10-17T20:38:28.959Z [INFO]: Incoming request: GET /api/guarantor/search?guarantorCode=G2946447
+2024-10-17T20:38:28.962Z [INFO]: Incoming request: GET /api/customer/search?customerCode=undefined
+2024-10-17T20:38:29.054Z [INFO]: Incoming request: GET /api/customer/search?customerCode=C9446915
+2024-10-17T20:38:31.487Z [INFO]: Incoming request: GET /api/user/all-users?page=1&limit=1000000
+2024-10-17T20:38:31.489Z [INFO]: Incoming request: GET /api/area/all?page=1&limit=1000000
+2024-10-17T20:40:26.964Z [INFO]: Incoming request: GET /api/user-task/all?search=
+2024-10-17T20:41:58.152Z [INFO]: listening on port 3000
+2024-10-17T20:41:59.633Z [INFO]: Database Connected
+2024-10-17T20:42:01.246Z [INFO]: listening on port 3000
+2024-10-17T20:42:02.913Z [INFO]: Database Connected
+2024-10-17T20:42:06.179Z [INFO]: listening on port 3000
+2024-10-17T20:42:23.768Z [INFO]: listening on port 3000
+2024-10-17T20:42:24.862Z [INFO]: Database Connected
