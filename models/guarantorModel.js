@@ -5,12 +5,14 @@ const guarantorSchema = new mongoose.Schema(
   {
     nic: {
       type: String,
-      required: true,
-      
+    },
+    guarantorCode: {
+      type: String,
+      unique: true,
     },
     location: {
       type: String,
-      required: true,
+      
     },
     firstName: {
       type: String,
@@ -30,7 +32,6 @@ const guarantorSchema = new mongoose.Schema(
     gender: {
       type: String,
       enum: ["male", "female", "other"],
-      default: "male",
     },
     dateOfBirth: {
       type: String,  
@@ -38,7 +39,6 @@ const guarantorSchema = new mongoose.Schema(
     civilStatus: {
       type: String,
       enum: ["single", "married", "divorced", "widowed"],
-      default: "single",
     },
     profilePicture: {
       type: String,

@@ -3,11 +3,12 @@ import asyncHandler from "express-async-handler";
 
 // Create a Customer
 export const createCustomer = asyncHandler(async (req, res) => {
-  const { loanCode, nic, location, areaCode, firstName, surName, address, number, dateOfBirth, gender, civilStatus, income, homeFullIncome, profilePicture, homeImage, billImage, paySheetImage, signatureImage } = req.body;
+  const { loanCode, nic, location, areaCode, firstName, surName, address, number, dateOfBirth, gender, civilStatus, income, homeFullIncome, profilePicture, homeImage, billImage, paySheetImage, signatureImage,customerCode } = req.body;
 
   try {
     const customer = new Customer({
       loanCode: loanCode || null,
+      customerCode: customerCode || null,
       nic: nic || null,
       location: location || null,
       areaCode: areaCode || null,
@@ -51,11 +52,25 @@ export const getACustomer = asyncHandler(async (req, res) => {
 
 // Get All Customers
 export const getAllCustomer = asyncHandler(async (req, res) => {
+  const {
+    sortBy = "createdAt", 
+    sortOrder = "desc",   
+    page = 1,            
+    limit = 20           
+  } = req.query
+
+  const sortOptions = { [sortBy]: sortOrder === "asc" ? 1 : -1 };
+
+  const pageNumber = Number(page);
+  const pageSize = Number(limit);
+  const skip = (pageNumber - 1) * pageSize;
+  
   try {
-    const customers = await Customer.find({});
-    res.status(200).json({ success: true, customers });
+    const totalCustomer = await Customer.countDocuments();
+    const customers = await Customer.find().limit(pageSize).skip(skip)
+    return res.json({ success: true, customers , totalPages: Math.ceil(totalCustomer / pageSize) });
   } catch (error) {
-    res.status(500).json({ success: false, message: error.message });
+    return res.status(500).json({ success: false, message: error.message });
   }
 });
 
@@ -72,6 +87,26 @@ export const updateCustomer = asyncHandler(async (req, res) => {
     await customer.save();
     
     res.json({ success: true, message: "Customer updated successfully", customer });
+  } catch (error) {
+    res.status(500).json({ success: false, message: error.message });
+  }
+});
+
+
+
+export const searchCustomer = asyncHandler(async (req, res) => {
+  const { customerCode } = req.query; 
+  
+  try {
+    const customers = await Customer.find({
+      customerCode
+    }); 
+
+    if (!customers || customers.length === 0) {
+      return res.status(200).json({ success: false, message: "No customers found" });
+    }
+
+    res.status(200).json({ success: true, customers });
   } catch (error) {
     res.status(500).json({ success: false, message: error.message });
   }

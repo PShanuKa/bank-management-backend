@@ -12,11 +12,13 @@ import { customerRouter } from './routes/customerRoute.js';
 import { areaRouter } from './routes/areaRoute.js';
 import { guarantorRouter } from './routes/guarantorRoute.js';
 import logger from './config/logger.js';
+import { LoanRouter } from './routes/loanRoute.js';
+import { settingRoute } from './routes/settingRoute.js';
+import { paymentRouter } from './routes/paymentRoute.js';
 dotenv.config();
 
 
-const __filename = fileURLToPath(import.meta.url);
-const __dirname = path.dirname(__filename);
+
 
 
 const port = process.env.PORT || 3000
@@ -36,7 +38,11 @@ app.use((req, res, next) => {
   logger.info(`Incoming request: ${req.method} ${req.url}`);
   next();
 });
-
+// remove this after --------------------------------------------------------------------------------------------
+// app.use((req, res, next) => {
+//   setTimeout(next, 3000); // 3-second delay
+// });
+// remove this after --------------------------------------------------------------------------------------------
 
 app.get('/', (req, res) => {
   logger.info('Handling root request');
@@ -46,14 +52,17 @@ app.use("/api/user", userRouter);
 app.use("/api/customer", customerRouter);
 app.use("/api/area", areaRouter);
 app.use("/api/guarantor", guarantorRouter);
+app.use("/api/loan", LoanRouter);
+app.use("/api/setting",settingRoute)
+app.use("/api/payment",paymentRouter)
 
 
 app.get('/api/image/:image', (req, res) => {
   res.sendFile(path.join(__dirname, 'uploads/profile', req.params.image));
 });
 
-app.use(notFound)
-app.use(handleError)
+// app.use(notFound)
+// app.use(handleError)
 
 
 app.listen(port, () => {

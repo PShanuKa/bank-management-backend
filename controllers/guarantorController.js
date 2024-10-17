@@ -14,6 +14,8 @@ export const createGuarantor = asyncHandler(async (req, res) => {
     dateOfBirth,
     civilStatus,
     profilePicture,
+    guarantorCode
+
   } = req.body;
 
   try {
@@ -23,16 +25,18 @@ export const createGuarantor = asyncHandler(async (req, res) => {
     }
 
     const guarantor = await Guarantor.create({
-      nic,
-      location,
-      firstName,
-      surName,
-      address,
-      number,
-      gender,
-      dateOfBirth,
-      civilStatus,
-      profilePicture,
+      nic: nic || null,
+      location: location || null,
+      firstName: firstName || null,
+      surName: surName || null,
+      address: address || null,
+      number: number || null,
+      gender: gender || null,
+      dateOfBirth: dateOfBirth || null,
+      civilStatus: civilStatus || null,
+      profilePicture: profilePicture || null,
+      guarantorCode: guarantorCode || null
+
     });
 
     if (guarantor) {
@@ -46,10 +50,24 @@ export const createGuarantor = asyncHandler(async (req, res) => {
 });
 
 // Get all Guarantors
-export const getAllGuarantors = asyncHandler(async (req, res) => {
+export const getAllGuarantors =  asyncHandler(async (req, res) => {
+  const {
+    sortBy = "createdAt", 
+    sortOrder = "desc",   
+    page = 1,            
+    limit = 20           
+  } = req.query
+
+  const sortOptions = { [sortBy]: sortOrder === "asc" ? 1 : -1 };
+
+  const pageNumber = Number(page);
+  const pageSize = Number(limit);
+  const skip = (pageNumber - 1) * pageSize;
+  
   try {
-    const guarantors = await Guarantor.find({});
-    return res.status(200).json({ success: true, guarantors });
+    const totalGuarantor = await Guarantor.countDocuments();
+    const guarantors = await Guarantor.find().limit(pageSize).skip(skip).sort(sortOptions);
+    return res.json({ success: true, guarantors , totalPages: Math.ceil(totalGuarantor / pageSize) });
   } catch (error) {
     return res.status(500).json({ success: false, message: error.message });
   }
@@ -68,22 +86,25 @@ export const updateGuarantor = asyncHandler(async (req, res) => {
     dateOfBirth,
     civilStatus,
     profilePicture,
+    guarantorCode
   } = req.body;
+  
 
   try {
     const guarantor = await Guarantor.findById(req.params.id);
-
+    
     if (guarantor) {
-      guarantor.nic = nic || guarantor.nic;
-      guarantor.location = location || guarantor.location;
-      guarantor.firstName = firstName || guarantor.firstName;
-      guarantor.surName = surName || guarantor.surName;
-      guarantor.address = address || guarantor.address;
-      guarantor.number = number || guarantor.number;
-      guarantor.gender = gender || guarantor.gender;
-      guarantor.dateOfBirth = dateOfBirth || guarantor.dateOfBirth;
-      guarantor.civilStatus = civilStatus || guarantor.civilStatus;
-      guarantor.profilePicture = profilePicture || guarantor.profilePicture;
+      guarantor.nic = nic || guarantor.nic || null;
+      guarantor.location = location || guarantor.location || null;
+      guarantor.firstName = firstName || guarantor.firstName  || null;
+      guarantor.surName = surName || guarantor.surName || null;
+      guarantor.address = address || guarantor.address || null;
+      guarantor.number = number || guarantor.number || null;
+      guarantor.gender = gender || guarantor.gender || null;
+      guarantor.dateOfBirth = dateOfBirth || guarantor.dateOfBirth || null;
+      guarantor.civilStatus = civilStatus || guarantor.civilStatus || null;
+      guarantor.profilePicture = profilePicture || guarantor.profilePicture || null;
+      guarantor.guarantorCode = guarantorCode || guarantor.guarantorCode || null
 
       const updatedGuarantor = await guarantor.save();
       return res.status(200).json({ success: true, message: "Guarantor updated successfully", guarantor: updatedGuarantor });
@@ -108,5 +129,24 @@ export const deleteGuarantor = asyncHandler(async (req, res) => {
     }
   } catch (error) {
     return res.status(500).json({ success: false, message: error.message });
+  }
+});
+
+
+export const searchGuarantor = asyncHandler(async (req, res) => {
+  const { guarantorCode } = req.query; 
+
+  try {
+    const guarantors = await Guarantor.find({
+      guarantorCode
+    }); 
+    
+    if (!guarantors || guarantors.length === 0) {
+      return res.status(200).json({ success: false, message: "No Guarantors found" });
+    }
+
+    res.status(200).json({ success: true, guarantors });
+  } catch (error) {
+    res.status(500).json({ success: false, message: error.message });
   }
 });

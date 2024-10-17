@@ -6,9 +6,12 @@ const customerSchema = new mongoose.Schema(
     loanCode: {
       type: String,
     },
+    customerCode: {
+      type: String,
+      unique: true,
+    },
     nic: {
       type: String,
-      required: true,
     },
     location: {
       type: mongoose.Schema.Types.ObjectId,
@@ -39,7 +42,7 @@ const customerSchema = new mongoose.Schema(
     gender: {
       type: String,
       enum: ["male", "female", "other"],
-      default: "male",
+
     },
     dateOfBirth: {
       type: String,
@@ -47,7 +50,7 @@ const customerSchema = new mongoose.Schema(
     civilStatus: {
       type: String,
       enum: ["single", "married", "divorced", "widowed"],
-      default: "single",
+
     },
     income: {
       type: String,

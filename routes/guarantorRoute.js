@@ -4,6 +4,7 @@ import {
   getAllGuarantors,
   updateGuarantor,
   deleteGuarantor,
+  searchGuarantor,
 } from "../controllers/guarantorController.js";
 
 export const guarantorRouter = express.Router();
@@ -15,7 +16,9 @@ guarantorRouter.post("/create", createGuarantor);
 guarantorRouter.get("/all", getAllGuarantors);
 
 // Route to update a guarantor by ID
-guarantorRouter.post("/update/:id", updateGuarantor);
+guarantorRouter.put("/update/:id", updateGuarantor);
+
+guarantorRouter.get('/search', searchGuarantor);
 
 // Route to delete a guarantor by ID
 guarantorRouter.delete("/delete/:id", deleteGuarantor);

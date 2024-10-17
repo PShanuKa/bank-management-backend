@@ -72,7 +72,7 @@ export const loginUser = asyncHandler(async (req, res) => {
       return res.json({
         success: true,
         message: "Login successful",
-        user: rest,
+        userInfo: rest,
         token: generateToken(user._id),
       });
     } else {
@@ -139,9 +139,23 @@ export const getAUser = asyncHandler(async (req, res) => {
 
 // Get All Users
 export const getAllUser = asyncHandler(async (req, res) => {
+  const {
+    sortBy = "createdAt", 
+    sortOrder = "desc",   
+    page = 1,            
+    limit = 20           
+  } = req.query
+
+  const sortOptions = { [sortBy]: sortOrder === "asc" ? 1 : -1 };
+
+  const pageNumber = Number(page);
+  const pageSize = Number(limit);
+  const skip = (pageNumber - 1) * pageSize;
+  
   try {
-    const users = await User.find();
-    return res.json({ success: true, users });
+    const totalUsers = await User.countDocuments();
+    const users = await User.find().limit(pageSize).skip(skip)
+    return res.json({ success: true, users  , totalPages: Math.ceil(totalUsers / pageSize) });
   } catch (error) {
     return res.status(500).json({ success: false, message: error.message });
   }

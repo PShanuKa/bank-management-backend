@@ -17,7 +17,7 @@ userRouter.get("/all-users",  getAllUser);
 userRouter.get("/:id", getAUser);
 
 // all put routes
-userRouter.post("/update/:id", updateUser);
+userRouter.put("/update/:id", updateUser);
 
 
 // all delete routes

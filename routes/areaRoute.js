@@ -15,7 +15,7 @@ areaRouter.post("/create", createArea);
 areaRouter.get("/all", getAllAreas);
 
 // Route to update an area by ID
-areaRouter.post("/update/:id", updateArea);
+areaRouter.put("/update/:id", updateArea);
 
 // Route to delete an area by ID
 areaRouter.delete("/delete/:id", deleteArea);
