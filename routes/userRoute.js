@@ -3,21 +3,21 @@ import { getAllUser, getAUser, loginUser, registerUser, updateUser} from "../con
 
 
 
-import { authMiddleware } from "../middlewares/authMiddleware.js";
+import { authMiddleware, isAdmin } from "../middlewares/authMiddleware.js";
 
 export const userRouter = express.Router();
 
 
 // all post routes
-userRouter.post("/register", registerUser);
+userRouter.post("/register", authMiddleware, isAdmin, registerUser);
 userRouter.post("/login", loginUser);
 
 // all get routes
-userRouter.get("/all-users",  getAllUser);
+userRouter.get("/all-users", authMiddleware,  getAllUser);
 userRouter.get("/:id", getAUser);
 
 // all put routes
-userRouter.put("/update/:id", updateUser);
+userRouter.put("/update/:id", authMiddleware, isAdmin, updateUser);
 
 
 // all delete routes

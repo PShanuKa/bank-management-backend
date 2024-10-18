@@ -8,20 +8,21 @@ import {
   getALoan,
   getReminderLoan,
 } from "../controllers/loanController.js";
+import { authMiddleware } from "../middlewares/authMiddleware.js";
 
 export const LoanRouter = express.Router();
 
 
-LoanRouter.post("/create", createLoan);
+LoanRouter.post("/create",authMiddleware, createLoan);
 
 
 LoanRouter.get("/all", getAllLoans);
 LoanRouter.get("/reminder", getReminderLoan);
 
-LoanRouter.put("/update/:id", updateLoan);
-LoanRouter.put("/action/:id", actionLoan);
+LoanRouter.put("/update/:id",authMiddleware, updateLoan);
+LoanRouter.put("/action/:id",authMiddleware, actionLoan);
 
 
-LoanRouter.delete("/delete/:id", deleteLoan);
+LoanRouter.delete("/delete/:id",authMiddleware, deleteLoan);
 LoanRouter.get("/:id", getALoan);
 

@@ -19,9 +19,6 @@ import { userTaskRouter } from './routes/userTaskRoute.js';
 dotenv.config();
 
 
-
-
-
 const port = process.env.PORT || 3000
 
 dbConnect()
@@ -32,6 +29,7 @@ app.use(cookieParser())
 app.use(cors(
   {
     origin: '*',
+    credentials: true,
   }
 ))
 
@@ -63,8 +61,8 @@ app.get('/api/image/:image', (req, res) => {
   res.sendFile(path.join(__dirname, 'uploads/profile', req.params.image));
 });
 
-// app.use(notFound)
-// app.use(handleError)
+app.use(notFound)
+app.use(handleError)
 
 
 app.listen(port, () => {

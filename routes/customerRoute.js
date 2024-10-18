@@ -11,8 +11,8 @@ import {
 
 export const customerRouter = express.Router();
 
-customerRouter.post("/create", createCustomer);
-customerRouter.put("/update/:id", updateCustomer);
+customerRouter.post("/create",authMiddleware, createCustomer);
+customerRouter.put("/update/:id",authMiddleware,  updateCustomer);
 
 customerRouter.get("/all-customers", getAllCustomer);
 customerRouter.get('/search', searchCustomer);
