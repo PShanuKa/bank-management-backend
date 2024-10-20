@@ -25,7 +25,6 @@ export const registerUser = asyncHandler(async (req, res) => {
   try {
     const userExists = await User.findOne({ email });
 
-    
     if (userExists) {
       return res
         .status(409)
@@ -33,12 +32,11 @@ export const registerUser = asyncHandler(async (req, res) => {
     }
 
     let hashPassword;
-    if(password){
+    if (password) {
       const salt = await bcrypt.genSalt(10);
       hashPassword = await bcrypt.hash(password, salt);
     }
-   
-    
+
     const newUser = await User.create({
       firstName: firstName || undefined,
       surName: surName || undefined,
@@ -116,28 +114,29 @@ export const updateUser = asyncHandler(async (req, res) => {
     address,
     civilStatus,
   } = req.body;
+
   try {
     let hashPassword;
-    if(password){
+    if (password) {
       const salt = await bcrypt.genSalt(10);
       hashPassword = await bcrypt.hash(password, salt);
     }
-  
-    const updatedUser = await User.findById(id)
 
-    updatedUser.firstName = firstName || updatedUser.firstName
-    updatedUser.surName = surName || updatedUser.surName
-    updatedUser.email = email || updatedUser.email
-    updatedUser.mobileNumber = mobileNumber || updatedUser.mobileNumber
-    updatedUser.isAdmin = isAdmin || updatedUser.isAdmin
-    updatedUser.nic = nic || updatedUser.nic
-    updatedUser.gender = gender || updatedUser.gender
-    updatedUser.dateOfBirth = dateOfBirth || updatedUser.dateOfBirth
-    updatedUser.civilStatus = civilStatus || updatedUser.civilStatus
-    updatedUser.address = address || updatedUser.address,
-    updatedUser.password = hashPassword || updatedUser.password
-    updatedUser.location = location || updatedUser.location
-    updatedUser.profilePicture = profilePicture || updatedUser.profilePicture
+    const updatedUser = await User.findById(id);
+
+    updatedUser.firstName = firstName || updatedUser.firstName;
+    updatedUser.surName = surName || updatedUser.surName;
+    updatedUser.email = email || updatedUser.email;
+    updatedUser.mobileNumber = mobileNumber || updatedUser.mobileNumber;
+    updatedUser.isAdmin = isAdmin !== undefined ? isAdmin : updatedUser.isAdmin;
+    updatedUser.nic = nic || updatedUser.nic;
+    updatedUser.gender = gender || updatedUser.gender;
+    updatedUser.dateOfBirth = dateOfBirth || updatedUser.dateOfBirth;
+    updatedUser.civilStatus = civilStatus || updatedUser.civilStatus;
+    (updatedUser.address = address || updatedUser.address),
+      (updatedUser.password = hashPassword || updatedUser.password);
+    updatedUser.location = location || updatedUser.location;
+    updatedUser.profilePicture = profilePicture || updatedUser.profilePicture;
     await updatedUser.save();
 
     if (updatedUser) {

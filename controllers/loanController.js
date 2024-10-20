@@ -234,19 +234,24 @@ export const actionLoan = asyncHandler(async (req, res) => {
 
 
 export const getReminderLoan = asyncHandler(async (req, res) => {
-  const { endDate } = req.query;
+  const { endDate , page = 1, limit = 20 } = req.query;
   try {
+
+    const pageNumber = Number(page);
+    const pageSize = Number(limit);
+    const skip = (pageNumber - 1) * pageSize;
     const filter = {};
     if (endDate) {
       filter.endDate = { $lt: new Date(endDate) };
     }
     filter.status = "Approved";
 
-    const ReminderLoan = await Loan.find(filter);
+    const ReminderLoan = await Loan.find(filter).sort({ createdAt: -1 }).skip(skip).limit(pageSize);
+    const totalRecords = await Loan.countDocuments(filter);
 
     return res.status(200).json({ 
       success: true, 
-      totalRecords: ReminderLoan.length, 
+      totalPages: Math.ceil(totalRecords/pageSize), 
       loans: ReminderLoan 
     });
 
