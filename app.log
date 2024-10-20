@@ -26117,3 +26117,5 @@
 2024-10-20T00:08:26.035Z [INFO]: Incoming request: GET /api/user-task/all?search=&page=1&limit=10000
 2024-10-20T00:08:34.430Z [INFO]: Incoming request: GET /api/user-task/all?search=&page=1&limit=10000
 2024-10-20T00:08:42.395Z [INFO]: Incoming request: POST /api/user/login
+2024-10-20T00:16:03.475Z [INFO]: listening on port 3000
+2024-10-20T00:16:05.509Z [INFO]: Database Connected

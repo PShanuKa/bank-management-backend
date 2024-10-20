@@ -21,7 +21,7 @@ export const createLoan = asyncHandler(async (req, res) => {
       status,
       loanCode
     } = req.body;
-    console.log(req.body)
+  
     try {
       // Use a different variable name for the new loan instance
       const newLoan = await Loan.create({
@@ -156,7 +156,7 @@ export const updateLoan = asyncHandler(async (req, res) => {
       reminderDescription
   } = req.body;
 
-  console.log(req.body)
+  
   try {
     const LoanData = await Loan.findById(req.params.id);
 
