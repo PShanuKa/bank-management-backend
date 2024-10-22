@@ -4,22 +4,34 @@ import Setting from '../models/settingModel.js';
 
 
 export const updateSetting = asyncHandler(async (req, res) => {
-    const { interestRate, days } = req.body; 
+    const { rates , days } = req.body; 
   
     try {
       let setting = await Setting.findOne({});
       if (setting) {
-        setting.interestRate = interestRate || setting.interestRate ;
+
+        setting.interestRate = rates|| setting.interestRate;
+
         setting.days = days || setting.days
+
+
         const updatedSetting = await setting.save();
+
+
         return res.status(200).json({
           success: true,
           message: "Setting updated successfully",
           setting: updatedSetting,
         });
       } else {
-        const newSetting = new Setting({ interestRate: interestRate || 0 , days: days || undefined });
+
+        const newSetting = new Setting({ interestRate: rates || undefined , days: days || undefined });
+
+
         const createdSetting = await newSetting.save();
+
+
+
         return res.status(201).json({
           success: true,
           message: "Setting created successfully",

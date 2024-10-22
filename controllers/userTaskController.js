@@ -106,7 +106,7 @@ export const getAllUserTask = asyncHandler(async (req, res) => {
     const query = search ? { userId: search } : {};
     query.isDeleted = false;
 
-    const userTask = await UserTask.find(query)
+    const userTask = await UserTask.find(query).sort({ createdAt: -1 })
       .populate({ path: "userId", select: "-password" })
       .populate("areaId")
       .limit(pageSize)

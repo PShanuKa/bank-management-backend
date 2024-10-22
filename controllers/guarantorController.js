@@ -168,7 +168,11 @@ export const searchGuarantor = asyncHandler(async (req, res) => {
 
   try {
     const guarantors = await Guarantor.find({
-      guarantorCode,
+      $or: [
+        { guarantorCode },
+        { nic: guarantorCode },
+        { firstName: guarantorCode }
+      ]
     });
 
     if (!guarantors || guarantors.length === 0) {

@@ -2,17 +2,20 @@ import mongoose from "mongoose";
 
 const settingSchema = new mongoose.Schema(
   {
-    interestRate:{
-      type: Number,
-    },
+    interestRate: [
+      {
+        rate: {
+          type: Number,
+        },
+      },
+    ],
     days: [
       {
         day: {
-          type:Number
+          type: Number,
         },
-        
-      }
-    ]
+      },
+    ],
   },
   {
     timestamps: true,

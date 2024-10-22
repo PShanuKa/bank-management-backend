@@ -16,6 +16,7 @@ import { LoanRouter } from './routes/loanRoute.js';
 import { settingRoute } from './routes/settingRoute.js';
 import { paymentRouter } from './routes/paymentRoute.js';
 import { userTaskRouter } from './routes/userTaskRoute.js';
+import { installmentRouter } from './routes/installmentRoute.js';
 dotenv.config();
 
 
@@ -55,6 +56,7 @@ app.use("/api/loan", LoanRouter);
 app.use("/api/setting",settingRoute)
 app.use("/api/payment",paymentRouter)
 app.use("/api/user-task",userTaskRouter)
+app.use("/api/installment",installmentRouter)
 
 
 app.get('/api/image/:image', (req, res) => {

@@ -104,8 +104,15 @@ export const searchCustomer = asyncHandler(async (req, res) => {
   
   try {
     const customers = await Customer.find({
-      customerCode
-    }); 
+      $or: [
+        { customerCode: customerCode },
+        { nic: customerCode },
+        { firstName: customerCode }
+      ]
+    });
+
+  
+
 
     if (!customers || customers.length === 0) {
       return res.status(200).json({ success: false, message: "No customers found" });
