@@ -1,3 +1,4 @@
+import Installment from "../models/InstallmentModel.js";
 import Loan from "../models/loanModel.js";
 import asyncHandler from "express-async-handler";
 
@@ -40,7 +41,16 @@ export const createLoan = asyncHandler(async (req, res) => {
       status: status || undefined,
       guarantorCode: guarantorCode || undefined,
       loanCode: loanCode || undefined,
-    });
+    }).populate("areaId");
+
+
+
+
+
+
+
+
+
 
     return res
       .status(201)

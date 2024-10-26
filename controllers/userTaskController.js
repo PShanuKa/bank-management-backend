@@ -3,12 +3,12 @@ import UserTask from "../models/userTaskModel.js";
 import User from "../models/userModel.js";
 
 export const createTask = asyncHandler(async (req, res) => {
-  const { userId, customerName, description, address, areaId, amount, date } =
+  const { userId, customerCode, description, address, areaId, amount, date } =
     req.body;
   try {
     const userTask = await UserTask.create({
       userId: userId || undefined,
-      customerName: customerName || undefined,
+      customerCode: customerCode || undefined,
       address: address || undefined,
       areaId: areaId || undefined,
       amount: amount || undefined,
@@ -29,12 +29,12 @@ export const createTask = asyncHandler(async (req, res) => {
 });
 
 export const updateTask = asyncHandler(async (req, res) => {
-  const { userId, customerName, address, description, areaId, amount, date } =
+  const { userId, customerCode, address, description, areaId, amount, date } =
     req.body;
   try {
     const userTask = await UserTask.findByIdAndUpdate(req.params.id, {
       userId: userId || undefined,
-      customerName: customerName || undefined,
+      customerCode: customerCode || undefined,
       address: address || undefined,
       areaId: areaId || undefined,
       amount: amount || undefined,
@@ -108,7 +108,7 @@ export const getAllUserTask = asyncHandler(async (req, res) => {
 
     const userTask = await UserTask.find(query).sort({ createdAt: -1 })
       .populate({ path: "userId", select: "-password" })
-      .populate("areaId")
+      .populate({path: "customerCode", populate: {path: "areaCode" , select: "name"}})
       .limit(pageSize)
       .skip(skip);
     const totalPages = await UserTask.countDocuments(query);

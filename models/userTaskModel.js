@@ -10,8 +10,9 @@ const userTaskSchema = new mongoose.Schema(
       type: mongoose.Schema.Types.ObjectId,
       ref: "Area",
     },
-    customerName: {
-      type: String,
+    customerCode: {
+      type: mongoose.Schema.Types.ObjectId,
+      ref: "Customer",
     },
     address: {
       type: String, 
