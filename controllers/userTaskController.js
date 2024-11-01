@@ -3,11 +3,40 @@ import UserTask from "../models/userTaskModel.js";
 import User from "../models/userModel.js";
 
 export const createTask = asyncHandler(async (req, res) => {
-  const { userId, customerCode, description, address, areaId, amount, date } =
-    req.body;
+  const {
+    userId,
+    installmentId,
+    customerCode,
+    description,
+    address,
+    areaId,
+    amount,
+    date,
+  } = req.body;
   try {
+    if (installmentId) {
+      const task = await UserTask.findOne({
+        installmentId,
+      });
+
+      if (task) {
+        const updatedTask = await UserTask.findByIdAndUpdate(task._id, {
+          date: date || undefined,
+          amount: amount || undefined,
+        });
+        return res
+          .status(201)
+          .json({
+            success: true,
+            message: "Task updated successfully",
+            updatedTask,
+          });
+      }
+    }
+
     const userTask = await UserTask.create({
       userId: userId || undefined,
+      installmentId: installmentId || undefined,
       customerCode: customerCode || undefined,
       address: address || undefined,
       areaId: areaId || undefined,
@@ -106,9 +135,13 @@ export const getAllUserTask = asyncHandler(async (req, res) => {
     const query = search ? { userId: search } : {};
     query.isDeleted = false;
 
-    const userTask = await UserTask.find(query).sort({ createdAt: -1 })
+    const userTask = await UserTask.find(query)
+      .sort({ createdAt: -1 })
       .populate({ path: "userId", select: "-password" })
-      .populate({path: "customerCode", populate: {path: "areaCode" , select: "name"}})
+      .populate({
+        path: "customerCode",
+        populate: { path: "areaCode", select: "name" },
+      })
       .limit(pageSize)
       .skip(skip);
     const totalPages = await UserTask.countDocuments(query);
@@ -118,7 +151,7 @@ export const getAllUserTask = asyncHandler(async (req, res) => {
         success: true,
         message: "Task fetched successfully",
         userTask,
-        totalPages : Math.ceil(totalPages / pageSize),
+        totalPages: Math.ceil(totalPages / pageSize),
       });
     } else {
       return res

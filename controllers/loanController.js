@@ -41,13 +41,23 @@ export const createLoan = asyncHandler(async (req, res) => {
       status: status || undefined,
       guarantorCode: guarantorCode || undefined,
       loanCode: loanCode || undefined,
-    }).populate("areaId");
+    });
 
-
-
-
-
-
+    if(loanAmount && ofInstallments && interestRate){
+      let AmountPerInstallment;
+      AmountPerInstallment = ((Number(loanAmount) * Number(interestRate) / 100) + Number(loanAmount)) / Number(ofInstallments);
+      for (let i = 1; i <= ofInstallments; i++) {
+        const installment = new Installment({
+          loanId: newLoan._id,
+          date: startDate,
+          balance: AmountPerInstallment.toFixed(2),
+          collectedDate: startDate,
+          status: "Pending",
+        });
+      const newInstallment =  await installment.save();
+      // console.log(newInstallment);
+      }
+    }
 
 
 

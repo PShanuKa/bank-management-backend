@@ -70,6 +70,19 @@ export const getAllAreas = asyncHandler(async (req, res) => {
   }
 });
 
+export const getAAreas = asyncHandler(async (req, res) => {
+  try {
+    const area = await Area.findById(req.params.id).populate("employeeId");
+    if (area) {
+      res.status(200).json({ success: true, area });
+    } else {
+      res.status(404).json({ success: false, message: "Area not found" });
+    }
+  } catch (error) {
+    res.status(500).json({ success: false, message: error.message });
+  }
+})
+
 // Update an Area by ID
 export const updateArea = asyncHandler(async (req, res) => {
   const { id } = req.params;

@@ -10,6 +10,9 @@ const userTaskSchema = new mongoose.Schema(
       type: mongoose.Schema.Types.ObjectId,
       ref: "Area",
     },
+    installmentId: {
+      type: String,
+    },
     customerCode: {
       type: mongoose.Schema.Types.ObjectId,
       ref: "Customer",
@@ -46,6 +49,7 @@ const userTaskSchema = new mongoose.Schema(
     timestamps: true,
   }
 );
+
 
 
 const UserTask = mongoose.model("UserTask", userTaskSchema);

@@ -4,6 +4,7 @@ import {
   getAllAreas,
   updateArea,
   deleteArea,
+  getAAreas,
 } from "../controllers/areaController.js";
 import { authMiddleware, isAdmin } from "../middlewares/authMiddleware.js";
 
@@ -14,6 +15,7 @@ areaRouter.post("/create",authMiddleware, isAdmin, createArea);
 
 // Route to get all areas
 areaRouter.get("/all", getAllAreas);
+areaRouter.get('/:id', getAAreas);
 
 // Route to update an area by ID
 areaRouter.put("/update/:id",authMiddleware, isAdmin, updateArea);
