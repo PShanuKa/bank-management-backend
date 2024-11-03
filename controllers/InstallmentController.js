@@ -1,5 +1,6 @@
 import asyncHandler from "express-async-handler";
 import Installment from "../models/InstallmentModel.js";
+import UserTask from "../models/userTaskModel.js";
 
 // Create a Loan
 export const createInstallment = asyncHandler(async (req, res) => {
@@ -90,8 +91,10 @@ export const deleteInstallment = asyncHandler(async (req, res) => {
   try {
     const InstallmentData = await Installment.findById(req.params.id);  
     if (InstallmentData) {
-      InstallmentData.isDeleted = true;
-      await InstallmentData.save();
+
+      const userTask = await UserTask.findOneAndDelete({ installmentId: req.params.id });
+      
+      await InstallmentData.remove();
       return res
         .status(200)
         .json({ success: true, message: "Installment removed successfully" });
