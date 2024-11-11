@@ -29337,3 +29337,190 @@
 2024-11-03T03:00:22.034Z [INFO]: Incoming request: GET /api/installment/6724f40956d1ea0ee451d9dc
 2024-11-03T03:00:30.643Z [INFO]: listening on port 3000
 2024-11-03T03:00:32.350Z [INFO]: listening on port 3000
+2024-11-03T03:00:34.424Z [INFO]: listening on port 3000
+2024-11-03T03:00:35.336Z [INFO]: Database Connected
+2024-11-03T03:00:37.792Z [INFO]: Incoming request: POST /api/user-task/create
+2024-11-03T03:00:47.928Z [INFO]: Incoming request: DELETE /api/installment/6724f40956d1ea0ee451d9de
+2024-11-03T03:00:48.121Z [INFO]: Incoming request: GET /api/installment/6724f40956d1ea0ee451d9dc
+2024-11-03T03:02:57.754Z [INFO]: Incoming request: GET /api/user/all-users?page=1&limit=20
+2024-11-03T03:02:59.993Z [INFO]: Incoming request: GET /api/user/all-users?page=1&limit=10000
+2024-11-03T03:02:59.997Z [INFO]: Incoming request: GET /api/area/all?page=1&limit=20
+2024-11-03T03:03:01.395Z [INFO]: Incoming request: GET /api/area/all?page=1&limit=100000
+2024-11-03T03:03:01.397Z [INFO]: Incoming request: GET /api/customer/all-customers?page=1&limit=20
+2024-11-03T03:03:02.558Z [INFO]: Incoming request: GET /api/guarantor/all?page=1&limit=20
+2024-11-03T03:03:05.226Z [INFO]: Incoming request: GET /api/loan/all?status=Pending&page=1&limit=20
+2024-11-03T03:03:05.252Z [INFO]: Incoming request: GET /api/setting
+2024-11-03T03:03:05.254Z [INFO]: Incoming request: GET /api/customer/search?customerCode=
+2024-11-03T03:03:05.256Z [INFO]: Incoming request: GET /api/guarantor/search?guarantorCode=
+2024-11-03T03:03:05.258Z [INFO]: Incoming request: GET /api/loan/all?status=&page=1&limit=20
+2024-11-03T03:03:05.641Z [INFO]: Incoming request: GET /api/customer/search?customerCode=C9446915
+2024-11-03T03:03:05.644Z [INFO]: Incoming request: GET /api/guarantor/search?guarantorCode=G3884870
+2024-11-03T03:03:05.647Z [INFO]: Incoming request: GET /api/customer/search?customerCode=undefined
+2024-11-03T03:03:05.648Z [INFO]: Incoming request: GET /api/guarantor/search?guarantorCode=G2946447
+2024-11-03T03:03:05.650Z [INFO]: Incoming request: GET /api/customer/search?customerCode=C6760330
+2024-11-03T03:03:05.652Z [INFO]: Incoming request: GET /api/guarantor/search?guarantorCode=undefined
+2024-11-03T15:42:28.262Z [INFO]: listening on port 3000
+2024-11-03T15:42:29.834Z [INFO]: Database Connected
+2024-11-03T15:42:32.394Z [INFO]: Incoming request: POST /api/user/login
+2024-11-03T15:42:33.247Z [INFO]: Incoming request: GET /api/user-task/all?search=&page=1&limit=10000
+2024-11-03T15:43:07.928Z [INFO]: Incoming request: GET /api/user/all-users?page=1&limit=20
+2024-11-03T15:43:16.188Z [INFO]: Incoming request: GET /api/user/all-users?page=1&limit=10000
+2024-11-03T15:43:16.193Z [INFO]: Incoming request: GET /api/area/all?page=1&limit=20
+2024-11-03T15:56:33.243Z [INFO]: Incoming request: POST /v1/users/login
+2024-11-03T15:56:37.844Z [INFO]: Incoming request: POST /v1/users/login
+2024-11-03T15:56:54.504Z [INFO]: Incoming request: POST /v1/users/login
+2024-11-11T11:50:11.507Z [INFO]: listening on port 3000
+2024-11-11T11:50:13.310Z [INFO]: Database Connected
+2024-11-11T11:50:27.817Z [INFO]: Incoming request: GET /api/user-task/all?search=&page=1&limit=10000
+2024-11-11T11:50:27.840Z [INFO]: Incoming request: GET /api/user-task/all?search=6721e509c220ec2620f8ef80&page=1&limit=10000
+2024-11-11T11:50:45.581Z [INFO]: Incoming request: GET /api/user-task/all?search=&page=1&limit=10000
+2024-11-11T11:50:45.607Z [INFO]: Incoming request: GET /api/user-task/all?search=6721e509c220ec2620f8ef80&page=1&limit=10000
+2024-11-11T11:51:38.806Z [INFO]: listening on port 3000
+2024-11-11T11:51:40.977Z [INFO]: listening on port 3000
+2024-11-11T11:51:41.866Z [INFO]: Database Connected
+2024-11-11T11:51:49.667Z [INFO]: listening on port 3000
+2024-11-11T11:51:50.750Z [INFO]: Database Connected
+2024-11-11T11:51:53.917Z [INFO]: listening on port 3000
+2024-11-11T11:51:54.890Z [INFO]: Database Connected
+2024-11-11T11:52:00.199Z [INFO]: listening on port 3000
+2024-11-11T11:52:02.165Z [INFO]: listening on port 3000
+2024-11-11T11:52:04.247Z [INFO]: listening on port 3000
+2024-11-11T11:52:05.282Z [INFO]: Database Connected
+2024-11-11T11:52:08.136Z [INFO]: Incoming request: GET /api/user-task/all?search=&page=1&limit=10000
+2024-11-11T11:52:08.152Z [INFO]: Incoming request: GET /api/user-task/all?search=6721e509c220ec2620f8ef80&page=1&limit=10000
+2024-11-11T11:52:25.823Z [INFO]: Incoming request: GET /api/user-task/all?search=&page=1&limit=10000
+2024-11-11T11:52:25.830Z [INFO]: Incoming request: GET /api/user-task/all?search=6721e509c220ec2620f8ef80&page=1&limit=10000
+2024-11-11T11:52:36.882Z [INFO]: listening on port 3000
+2024-11-11T11:52:37.818Z [INFO]: Database Connected
+2024-11-11T11:52:40.207Z [INFO]: listening on port 3000
+2024-11-11T11:52:41.131Z [INFO]: Database Connected
+2024-11-11T11:52:44.391Z [INFO]: listening on port 3000
+2024-11-11T11:52:45.225Z [INFO]: Database Connected
+2024-11-11T11:52:50.912Z [INFO]: listening on port 3000
+2024-11-11T11:52:53.472Z [INFO]: listening on port 3000
+2024-11-11T11:52:54.354Z [INFO]: Database Connected
+2024-11-11T11:52:56.437Z [INFO]: listening on port 3000
+2024-11-11T11:52:58.294Z [INFO]: listening on port 3000
+2024-11-11T11:52:59.143Z [INFO]: Database Connected
+2024-11-11T11:53:11.737Z [INFO]: listening on port 3000
+2024-11-11T11:53:12.706Z [INFO]: Database Connected
+2024-11-11T11:53:14.984Z [INFO]: Incoming request: GET /api/user-task/all?search=&page=1&limit=10000
+2024-11-11T11:53:15.002Z [INFO]: Incoming request: GET /api/user-task/all?search=6721e509c220ec2620f8ef80&page=1&limit=10000
+2024-11-11T11:54:00.220Z [INFO]: Incoming request: GET /api/user-task/all?search=&page=1&limit=10000
+2024-11-11T11:54:00.228Z [INFO]: Incoming request: GET /api/user-task/all?search=6721e509c220ec2620f8ef80&page=1&limit=10000
+2024-11-11T11:58:51.194Z [INFO]: Incoming request: GET /api/user-task/all?search=&page=1&limit=10000
+2024-11-11T11:58:51.228Z [INFO]: Incoming request: GET /api/user-task/all?search=6721e509c220ec2620f8ef80&page=1&limit=10000
+2024-11-11T11:59:31.278Z [INFO]: Incoming request: GET /api/user-task/all?search=&page=1&limit=10000
+2024-11-11T11:59:31.305Z [INFO]: Incoming request: GET /api/user-task/all?search=6721e509c220ec2620f8ef80&page=1&limit=10000
+2024-11-11T11:59:44.553Z [INFO]: Incoming request: GET /api/user-task/all?search=&page=1&limit=10000
+2024-11-11T11:59:44.577Z [INFO]: Incoming request: GET /api/user-task/all?search=6721e509c220ec2620f8ef80&page=1&limit=10000
+2024-11-11T12:00:22.139Z [INFO]: Incoming request: GET /api/user-task/all?search=&page=1&limit=10000
+2024-11-11T12:00:22.161Z [INFO]: Incoming request: GET /api/user-task/all?search=6721e509c220ec2620f8ef80&page=1&limit=10000
+2024-11-11T12:00:24.041Z [INFO]: Incoming request: GET /api/user-task/all?search=&page=1&limit=10000
+2024-11-11T12:00:24.063Z [INFO]: Incoming request: GET /api/user-task/all?search=6721e509c220ec2620f8ef80&page=1&limit=10000
+2024-11-11T12:01:06.056Z [INFO]: Incoming request: GET /api/user-task/all?search=&page=1&limit=10000
+2024-11-11T12:01:06.083Z [INFO]: Incoming request: GET /api/user-task/all?search=6721e509c220ec2620f8ef80&page=1&limit=10000
+2024-11-11T12:01:17.520Z [INFO]: Incoming request: GET /api/user-task/all?search=&page=1&limit=10000
+2024-11-11T12:01:17.657Z [INFO]: Incoming request: GET /api/user-task/all?search=6721e509c220ec2620f8ef80&page=1&limit=10000
+2024-11-11T12:01:23.318Z [INFO]: Incoming request: GET /api/user-task/all?search=&page=1&limit=10000
+2024-11-11T12:01:23.479Z [INFO]: Incoming request: GET /api/user-task/all?search=6721e509c220ec2620f8ef80&page=1&limit=10000
+2024-11-11T12:01:28.080Z [INFO]: Incoming request: GET /api/user-task/all?search=&page=1&limit=10000
+2024-11-11T12:01:28.102Z [INFO]: Incoming request: GET /api/user-task/all?search=6721e509c220ec2620f8ef80&page=1&limit=10000
+2024-11-11T12:01:59.794Z [INFO]: Incoming request: GET /api/user-task/all?search=&page=1&limit=10000
+2024-11-11T12:01:59.818Z [INFO]: Incoming request: GET /api/user-task/all?search=6721e509c220ec2620f8ef80&page=1&limit=10000
+2024-11-11T12:02:01.537Z [INFO]: Incoming request: GET /api/user-task/all?search=&page=1&limit=10000
+2024-11-11T12:02:01.573Z [INFO]: Incoming request: GET /api/user-task/all?search=6721e509c220ec2620f8ef80&page=1&limit=10000
+2024-11-11T12:02:14.923Z [INFO]: Incoming request: GET /api/user-task/all?search=&page=1&limit=10000
+2024-11-11T12:02:14.943Z [INFO]: Incoming request: GET /api/user-task/all?search=6721e509c220ec2620f8ef80&page=1&limit=10000
+2024-11-11T12:02:30.438Z [INFO]: Incoming request: GET /api/user-task/all?search=&page=1&limit=10000
+2024-11-11T12:02:30.479Z [INFO]: Incoming request: GET /api/user-task/all?search=6721e509c220ec2620f8ef80&page=1&limit=10000
+2024-11-11T12:03:00.016Z [INFO]: Incoming request: GET /api/user-task/all?search=&page=1&limit=10000
+2024-11-11T12:03:00.052Z [INFO]: Incoming request: GET /api/user-task/all?search=6721e509c220ec2620f8ef80&page=1&limit=10000
+2024-11-11T12:03:04.100Z [INFO]: Incoming request: GET /api/user-task/all?search=&page=1&limit=10000
+2024-11-11T12:03:04.122Z [INFO]: Incoming request: GET /api/user-task/all?search=6721e509c220ec2620f8ef80&page=1&limit=10000
+2024-11-11T12:03:30.969Z [INFO]: Incoming request: GET /api/user-task/all?search=&page=1&limit=10000
+2024-11-11T12:03:31.021Z [INFO]: Incoming request: GET /api/user-task/all?search=6721e509c220ec2620f8ef80&page=1&limit=10000
+2024-11-11T12:03:35.215Z [INFO]: Incoming request: GET /api/user-task/all?search=&page=1&limit=10000
+2024-11-11T12:03:35.217Z [INFO]: Incoming request: GET /api/user-task/all?search=6721e509c220ec2620f8ef80&page=1&limit=10000
+2024-11-11T12:04:55.380Z [INFO]: Incoming request: GET /api/user-task/all?search=&page=1&limit=10000
+2024-11-11T12:04:55.381Z [INFO]: Incoming request: GET /api/user-task/all?search=6721e509c220ec2620f8ef80&page=1&limit=10000
+2024-11-11T12:05:01.525Z [INFO]: Incoming request: GET /api/user-task/all?search=&page=1&limit=10000
+2024-11-11T12:05:01.559Z [INFO]: Incoming request: GET /api/user-task/all?search=6721e509c220ec2620f8ef80&page=1&limit=10000
+2024-11-11T12:05:09.434Z [INFO]: Incoming request: GET /api/user-task/all?search=&page=1&limit=10000
+2024-11-11T12:05:09.528Z [INFO]: Incoming request: GET /api/user-task/all?search=6721e509c220ec2620f8ef80&page=1&limit=10000
+2024-11-11T12:05:12.238Z [INFO]: Incoming request: GET /api/user-task/all?search=&page=1&limit=10000
+2024-11-11T12:05:12.271Z [INFO]: Incoming request: GET /api/user-task/all?search=6721e509c220ec2620f8ef80&page=1&limit=10000
+2024-11-11T12:05:19.423Z [INFO]: Incoming request: GET /api/user-task/all?search=&page=1&limit=10000
+2024-11-11T12:05:19.468Z [INFO]: Incoming request: GET /api/user-task/all?search=6721e509c220ec2620f8ef80&page=1&limit=10000
+2024-11-11T12:05:28.672Z [INFO]: Incoming request: GET /api/user-task/all?search=&page=1&limit=10000
+2024-11-11T12:05:28.675Z [INFO]: Incoming request: GET /api/user-task/all?search=6721e509c220ec2620f8ef80&page=1&limit=10000
+2024-11-11T12:05:49.973Z [INFO]: Incoming request: GET /api/user-task/all?search=&page=1&limit=10000
+2024-11-11T12:05:49.989Z [INFO]: Incoming request: GET /api/user-task/all?search=6721e509c220ec2620f8ef80&page=1&limit=10000
+2024-11-11T12:05:58.281Z [INFO]: Incoming request: GET /api/user-task/all?search=&page=1&limit=10000
+2024-11-11T12:05:58.307Z [INFO]: Incoming request: GET /api/user-task/all?search=6721e509c220ec2620f8ef80&page=1&limit=10000
+2024-11-11T12:06:10.206Z [INFO]: Incoming request: GET /api/user-task/all?search=&page=1&limit=10000
+2024-11-11T12:06:10.211Z [INFO]: Incoming request: GET /api/user-task/all?search=6721e509c220ec2620f8ef80&page=1&limit=10000
+2024-11-11T12:06:47.312Z [INFO]: Incoming request: GET /api/user-task/all?search=&page=1&limit=10000
+2024-11-11T12:06:47.330Z [INFO]: Incoming request: GET /api/user-task/all?search=6721e509c220ec2620f8ef80&page=1&limit=10000
+2024-11-11T12:06:52.467Z [INFO]: Incoming request: GET /api/user-task/all?search=&page=1&limit=10000
+2024-11-11T12:06:52.491Z [INFO]: Incoming request: GET /api/user-task/all?search=6721e509c220ec2620f8ef80&page=1&limit=10000
+2024-11-11T12:06:55.285Z [INFO]: Incoming request: GET /api/user-task/all?search=&page=1&limit=10000
+2024-11-11T12:06:55.324Z [INFO]: Incoming request: GET /api/user-task/all?search=6721e509c220ec2620f8ef80&page=1&limit=10000
+2024-11-11T12:07:01.055Z [INFO]: Incoming request: GET /api/user-task/all?search=&page=1&limit=10000
+2024-11-11T12:07:01.075Z [INFO]: Incoming request: GET /api/user-task/all?search=6721e509c220ec2620f8ef80&page=1&limit=10000
+2024-11-11T12:07:03.987Z [INFO]: Incoming request: GET /api/user-task/all?search=&page=1&limit=10000
+2024-11-11T12:07:04.014Z [INFO]: Incoming request: GET /api/user-task/all?search=6721e509c220ec2620f8ef80&page=1&limit=10000
+2024-11-11T12:07:25.153Z [INFO]: Incoming request: GET /api/user-task/all?search=&page=1&limit=10000
+2024-11-11T12:07:25.180Z [INFO]: Incoming request: GET /api/user-task/all?search=6721e509c220ec2620f8ef80&page=1&limit=10000
+2024-11-11T12:07:28.297Z [INFO]: Incoming request: GET /api/user-task/all?search=&page=1&limit=10000
+2024-11-11T12:07:28.325Z [INFO]: Incoming request: GET /api/user-task/all?search=6721e509c220ec2620f8ef80&page=1&limit=10000
+2024-11-11T12:08:06.936Z [INFO]: listening on port 3000
+2024-11-11T12:08:08.582Z [INFO]: Database Connected
+2024-11-11T12:08:14.469Z [INFO]: listening on port 3000
+2024-11-11T12:08:15.322Z [INFO]: Database Connected
+2024-11-11T12:08:38.069Z [INFO]: Incoming request: POST /api/user/login
+2024-11-11T12:08:38.408Z [INFO]: Incoming request: GET /api/user-task/all?search=&page=1&limit=10000
+2024-11-11T12:08:47.386Z [INFO]: Incoming request: GET /api/user/all-users?page=1&limit=20
+2024-11-11T12:09:12.837Z [INFO]: Incoming request: GET /api/user/all-users?page=1&limit=20
+2024-11-11T12:09:26.976Z [INFO]: Incoming request: GET /api/user/all-users?page=1&limit=20
+2024-11-11T12:09:35.805Z [INFO]: Incoming request: GET /api/user/all-users?page=1&limit=20
+2024-11-11T12:09:37.932Z [INFO]: Incoming request: GET /api/user/all-users?page=1&limit=20
+2024-11-11T12:09:42.588Z [INFO]: Incoming request: GET /api/user/all-users?page=1&limit=20
+2024-11-11T12:10:25.827Z [INFO]: listening on port 3000
+2024-11-11T12:10:29.424Z [INFO]: listening on port 3000
+2024-11-11T12:10:31.300Z [INFO]: Database Connected
+2024-11-11T12:10:35.592Z [INFO]: Incoming request: POST /api/user/login
+2024-11-11T12:10:36.050Z [INFO]: Incoming request: GET /api/user-task/all?search=&page=1&limit=10000
+2024-11-11T12:10:41.137Z [INFO]: Incoming request: GET /api/user-task/all?search=&page=1&limit=10000
+2024-11-11T12:10:47.764Z [INFO]: Incoming request: GET /api/user/all-users?page=1&limit=20
+2024-11-11T12:10:51.418Z [INFO]: Incoming request: GET /api/user/all-users?page=1&limit=20
+2024-11-11T12:11:10.740Z [INFO]: Incoming request: GET /api/user/all-users?page=1&limit=20
+2024-11-11T12:11:13.279Z [INFO]: Incoming request: GET /api/user/all-users?page=1&limit=20
+2024-11-11T12:11:15.275Z [INFO]: Incoming request: GET /api/user/all-users?page=1&limit=20
+2024-11-11T12:11:17.643Z [INFO]: Incoming request: GET /api/user/all-users?page=1&limit=20
+2024-11-11T12:11:19.824Z [INFO]: Incoming request: GET /api/user/all-users?page=1&limit=20
+2024-11-11T12:11:22.698Z [INFO]: Incoming request: GET /api/user/all-users?page=1&limit=20
+2024-11-11T12:11:24.814Z [INFO]: Incoming request: GET /api/user/all-users?page=1&limit=20
+2024-11-11T12:11:26.711Z [INFO]: Incoming request: GET /api/user/all-users?page=1&limit=20
+2024-11-11T12:11:29.151Z [INFO]: Incoming request: GET /api/user/all-users?page=1&limit=20
+2024-11-11T12:11:34.677Z [INFO]: Incoming request: GET /api/user/all-users?page=1&limit=20
+2024-11-11T12:11:40.143Z [INFO]: Incoming request: GET /api/user/all-users?page=1&limit=20
+2024-11-11T12:11:54.085Z [INFO]: Incoming request: GET /api/user/all-users?page=1&limit=20
+2024-11-11T12:12:04.432Z [INFO]: Incoming request: GET /api/user/all-users?page=1&limit=20
+2024-11-11T12:12:37.949Z [INFO]: Incoming request: GET /api/user/all-users?page=1&limit=20
+2024-11-11T12:13:06.081Z [INFO]: listening on port 3000
+2024-11-11T12:13:08.293Z [INFO]: listening on port 3000
+2024-11-11T12:13:09.114Z [INFO]: Database Connected
+2024-11-11T12:13:09.220Z [INFO]: Incoming request: POST /api/user/login
+2024-11-11T12:13:10.626Z [INFO]: Incoming request: GET /api/user-task/all?search=&page=1&limit=10000
+2024-11-11T12:14:33.059Z [INFO]: Incoming request: GET /api/user-task/all?search=&page=1&limit=10000
+2024-11-11T12:15:17.078Z [INFO]: Incoming request: POST /api/user/login
+2024-11-11T12:15:17.789Z [INFO]: Incoming request: GET /api/user-task/all?search=&page=1&limit=10000
+2024-11-11T12:15:41.684Z [INFO]: Incoming request: GET /api/user-task/all?search=&page=1&limit=10000
+2024-11-11T12:15:46.229Z [INFO]: Incoming request: GET /api/user-task/all?search=&page=1&limit=10000
+2024-11-11T12:15:48.989Z [INFO]: Incoming request: GET /api/user-task/all?search=&page=1&limit=10000
+2024-11-11T12:16:13.491Z [INFO]: listening on port 3000
+2024-11-11T12:16:14.585Z [INFO]: Database Connected
+2024-11-11T12:16:14.725Z [INFO]: Incoming request: POST /api/user/login
+2024-11-11T12:16:15.460Z [INFO]: Incoming request: GET /api/user-task/all?search=&page=1&limit=10000
+2024-11-11T12:16:23.557Z [INFO]: Incoming request: GET /api/user/all-users?page=1&limit=20
